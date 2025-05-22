@@ -1,2 +1,2 @@
 # Discord-snippets
-Bibliothèque de 
+Bibliothèque de morceaux de code CSS pour Discord.

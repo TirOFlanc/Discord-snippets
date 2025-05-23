@@ -8,3 +8,4 @@
 .sidebar_c48ade>.sidebarList_c48ade										{width:var(--custom-guild-sidebar-width);transition:var(--SidebarCollapseTrans)}
 .sidebar_c48ade:has(>:nth-child(-n+2):hover)	{&>.guilds_c48ade		{width:var(--custom-guild-list-width)!important;transition:var(--SidebarExpandTrans)}
 												&>.sidebarList_c48ade	{width:calc(var(--custom-guild-sidebar-width) + var(--VisibleWidth) - var(--custom-guild-list-width));transition:var(--SidebarExpandTrans)}}
+sc

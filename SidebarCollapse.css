@@ -1,10 +1,10 @@
 :root {
-	--SidebarCollapseTrans:				width .15s ease-in-out .3s;
-	--SidebarExpandTrans:				width .3s ease-in-out .15s;
-	--VisibleWidth:						1px
+	--SidebarCollapseTrans:												width .15s ease-in-out .3s;
+	--SidebarExpandTrans:												width .3s ease-in-out .15s;
+	--VisibleWidth:														1px
 }
 
-.guilds_c48ade																{width:var(--VisibleWidth)!important;transition:var(--SidebarCollapseTrans)}
+.guilds_c48ade															{width:var(--VisibleWidth)!important;transition:var(--SidebarCollapseTrans)}
 .sidebar_c48ade>.sidebarList_c48ade										{width:var(--custom-guild-sidebar-width);transition:var(--SidebarCollapseTrans)}
-.sidebar_c48ade:has(>:nth-child(-n+2):hover)			{&>.guilds_c48ade		{width:var(--custom-guild-list-width)!important;transition:var(--SidebarExpandTrans)}
-													&>.sidebarList_c48ade	{width:calc(var(--custom-guild-sidebar-width) + var(--VisibleWidth) - var(--custom-guild-list-width));transition:var(--SidebarExpandTrans)}}
+.sidebar_c48ade:has(>:nth-child(-n+2):hover)	{&>.guilds_c48ade		{width:var(--custom-guild-list-width)!important;transition:var(--SidebarExpandTrans)}
+												&>.sidebarList_c48ade	{width:calc(var(--custom-guild-sidebar-width) + var(--VisibleWidth) - var(--custom-guild-list-width));transition:var(--SidebarExpandTrans)}}

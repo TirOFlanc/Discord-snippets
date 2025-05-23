@@ -4,7 +4,12 @@
 	--VisibleWidth:									1px
 }
 
+/* Gère la largeur par défaut de la colonne des serveurs */
 						.guilds_c48ade				{width:var(--VisibleWidth)!important;transition:var(--SidebarCollapse)}
-						.sidebar_c48ade>.sidebarList_c48ade	{width:var(--custom-guild-sidebar-width);transition:var(--SidebarCollapse)}
+
+/* Gère la largeur par défaut de la colonne des amis/salons */
+						.sidebarList_c48ade	{width:var(--custom-guild-sidebar-width);transition:var(--SidebarCollapse)}
+
+/*  */
 .sidebar_c48ade:has(>:nth-child(-n+2):hover)	{&>.guilds_c48ade			{width:var(--custom-guild-list-width)!important;transition:var(--SidebarExpand)}
 						&>.sidebarList_c48ade			{width:calc(var(--custom-guild-sidebar-width) + var(--VisibleWidth) - var(--custom-guild-list-width));transition:var(--SidebarExpand)}}

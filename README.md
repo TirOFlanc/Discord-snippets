@@ -1,7 +1,8 @@
 # Discord-snippets
 Bibliothèque de morceaux de code CSS pour Discord.
 
-Lien pour importer les feuilles CSS:
+Lien pour importer les feuilles CSS :
+
 
 
 /* SidebarCollapse */

@@ -5,12 +5,12 @@ Lien pour importer les feuilles CSS :
 
 /* MemberListCollapse */
 
-@import url("https://tiroflanc.github.io/Discord-snippets/MemberListCollapse.css");
+@import url(https://tiroflanc.github.io/Discord-snippets/MemberListCollapse.css);
 
 /* SideBarCollapse */
 
-@import url("https://tiroflanc.github.io/Discord-snippets/SideBarCollapse.css");
+@import url(https://tiroflanc.github.io/Discord-snippets/SideBarCollapse.css);
 
 /* UserAreaCollapse */
 
-@import url("https://tiroflanc.github.io/Discord-snippets/UserAreaCollapse.css");
+@import url(https://tiroflanc.github.io/Discord-snippets/UserAreaCollapse.css);

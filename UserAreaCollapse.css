@@ -19,7 +19,7 @@
 	.panels_c48ade:hover		>*:not(:last-child)			{transform:translateY(0%) scale(1,1);opacity:1;transition:var(--UserAreaTrans)}
 
 /* Rétracte les boutons de la barre d'appel */
-					.channel_e131a9 .lineClamp1__4bd52	{font-size:12px}
+					.channel_e131a9 .lineClamp1__4bd52	{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;white-space:normal}
 					.container_e131a9			{overflow:hidden}
 					.inner_e131a9				{min-width:calc(var(--custom-guild-sidebar-width) - 30px);transition:min-width .3s ease-in-out .15s}
 	.connection_e131a9:hover	.inner_e131a9				{min-width:0}

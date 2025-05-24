@@ -7,9 +7,9 @@ Lien pour importer les feuilles CSS :
 
 @import url("https://tiroflanc.github.io/Discord-snippets/MemberListCollapse.css");
 
-/* SidebarCollapse */
+/* SideBarCollapse */
 
-@import url("https://tiroflanc.github.io/Discord-snippets/SidebarCollapse.css");
+@import url("https://tiroflanc.github.io/Discord-snippets/SideBarCollapse.css");
 
 /* UserAreaCollapse */
 

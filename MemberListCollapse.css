@@ -1,0 +1,34 @@
+:root {
+	--custom-member-list-width:												64px;
+}
+
+/* Rétracte le panneau des membres par défaut et le déploie au survole de la souris */
+						:is(.container_c8ffbb,.container__7641b)					{width:var(--custom-member-list-width);transition:width 0.25s}
+						:is(.container_c8ffbb,.container__7641b):hover					{--custom-member-list-width:230px;width:var(--custom-member-list-width)}
+
+/* Supprime tous les noms de groupe, les activités et les membres hors ligne */
+						:is(.membersGroup_c8ffbb,.membersGroup_c8ffbb ~ div:has(.openOnHover__0f2e8),
+						[class*="offline"])								{display:none}
+
+/* Affiche les noms de groupes (sauf Activité s'il est rétracté), les activités et les membres hors ligne au survole de la souris */
+:is(.container_c8ffbb,.container__7641b):hover	:is(.membersGroup_c8ffbb:not(:has(.toggleExpandIcon__095fe)),
+						.membersGroup_c8ffbb ~ div:has(.openOnHover__0f2e8),
+						[class*="offline"])								{display:block}
+
+/* Permet de réafficher le groupe Activité rétracté au survole de la souris */
+:is(.container_c8ffbb,.container__7641b):hover	.membersGroup_c8ffbb:has(.toggleExpandIcon__095fe)				{display:block;opacity:0;height:0px;padding-top:0px;margin-bottom:0px}
+
+/* Rend visible le groupe Activité au survole de la souris */
+						.membersGroup_c8ffbb:has(.toggleExpandIcon__095fe):hover			{opacity:1!important}
+
+/* Centre le nom du groupe Activité */
+						.headerContainer__095fe								{justify-content:center}
+
+/* Ajoute une mise en forme aux catégories de membres */
+						.membersGroup_c8ffbb:not(:has(.headerContainer__095fe))				{padding-top:15px;margin-bottom:5px;text-align:center;background-image:linear-gradient(90deg,transparent,transparent),linear-gradient(90deg,transparent,var(--channel-icon),transparent);background-size:100% 3px;background-position:0 0, 0 100%;background-repeat:no-repeat}
+
+/* Ajuste l'écart autour des membres */
+						.childContainer__91a9d								{padding:0 0 0 0}
+						[aria-label="Membres"]								{margin:7px 0}
+						.membersGroup_c8ffbb ~ div							{margin:2px 8px 2px}
+:is(.container_c8ffbb,.container__7641b):hover	.membersGroup_c8ffbb ~ div							{margin:0 0 0 8px}

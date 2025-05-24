@@ -27,7 +27,7 @@
 						.headerContainer__095fe								{justify-content:center}
 
 /* Ajoute une mise en forme aux catégories de membres */
-						.membersGroup_c8ffbb:not(:has(.headerContainer__095fe))				{padding-top:15px;margin-bottom:5px;text-align:center;background-image:linear-gradient(90deg,transparent,transparent),linear-gradient(90deg,transparent,var(--channel-icon),transparent);background-size:100% 3px;background-position:0 0, 0 100%;background-repeat:no-repeat}
+						.membersGroup_c8ffbb:not(:has(.headerContainer__095fe))				{padding-top:15px;margin-bottom:5px;text-align:center;background-image:linear-gradient(90deg,transparent,transparent),linear-gradient(90deg,transparent,var(--channel-icon),transparent);background-size:100% 3px;background-position:0 0,0 100%;background-repeat:no-repeat}
 
 /* Ajuste l'écart autour des membres */
 						.childContainer__91a9d								{padding:0 0 0 0}

@@ -1,6 +1,8 @@
 :root {
 	--custom-member-list-width:												64px;
 }
+/* Ajoute une aura à gauche au survole de la liste des membres */
+						:is(.container_c8ffbb, .container__7641b):hover					{filter:drop-shadow(0 0 2px);color:var(--channel-icon)}
 
 /* Rétracte le panneau des membres par défaut et le déploie au survole de la souris */
 						:is(.container_c8ffbb,.container__7641b)					{width:var(--custom-member-list-width);transition:width 0.25s}

@@ -1,0 +1,6 @@
+.childWrapper__6e9f8:hover	>svg	{animation:spin-rebound 1.75s cubic-bezier(.75,0,.25,1) .5s infinite}
+	@keyframes spin-rebound		{0%{transform:rotate(0deg)}
+					10%{transform:rotate(-60deg)}
+					40%{transform:rotate(420deg)}
+					50%{transform:rotate(360deg)}
+					100%{transform:rotate(360deg)}}

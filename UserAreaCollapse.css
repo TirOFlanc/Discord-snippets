@@ -25,6 +25,7 @@
 .connection_e131a9:hover	.inner_e131a9				{min-width:0}
 
 /* Rétracte les boutons de la barre de profil utilisateur */
+				.container__37e49			{gap:auto}
 				.buttons__37e49				{max-width:0;overflow:hidden;transition:var(--ProfileTrans)}
 .container__37e49:hover		.buttons__37e49 			{max-width:105px}
 				.buttons__37e49>*			{transition:var(--ProfileTrans)!important}

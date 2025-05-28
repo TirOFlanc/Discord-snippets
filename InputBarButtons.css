@@ -1,6 +1,6 @@
-root {
-	--EmojiScale:		1.6
-	--EmojiOpacity:		.25
+:root {
+	--EmojiScale:		1.6;
+	--EmojiOpacity:		.25;
 	--EmojiTransition:	.2s
 }
 

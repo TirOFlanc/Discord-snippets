@@ -8,7 +8,7 @@ Bibliothèque de morceaux de code CSS pour Discord.
 @import url(https://tiroflanc.github.io/Discord-snippets/AnimatedSpinningLogo.css);
 ```
 ### InputBarButtons
-```
+```CSS
 @import url(https://tiroflanc.github.io/Discord-snippets/InputBarButtons.css);
 ```
 ### MemberListCollapse

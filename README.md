@@ -15,6 +15,10 @@ Bibliothèque de morceaux de code CSS pour Discord.
 ```CSS
 @import url(https://tiroflanc.github.io/Discord-snippets/MemberListCollapse.css);
 ```
+### NiftyFontPlay
+```CSS
+@import url(https://tiroflanc.github.io/Discord-snippets/NiftyFontPlay.css);
+```
 ### SideBarCollapse
 ```CSS
 @import url(https://tiroflanc.github.io/Discord-snippets/SideBarCollapse.css);

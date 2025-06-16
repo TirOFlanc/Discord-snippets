@@ -6,7 +6,8 @@ Bibliothèque de morceaux de code CSS pour Discord.
 ### AllDiscordSnippets
 ```CSS
 @import url(https://tiroflanc.github.io/Discord-snippets/AllDiscordSnippets.css);
-```### AnimatedSpinningLogo
+```
+### AnimatedSpinningLogo
 ```CSS
 @import url(https://tiroflanc.github.io/Discord-snippets/AnimatedSpinningLogo.css);
 ```

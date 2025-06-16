@@ -3,7 +3,10 @@ Bibliothèque de morceaux de code CSS pour Discord.
 
 ## Lien pour importer les feuilles CSS :
 
-### AnimatedSpinningLogo
+### AllDiscordSnippets
+```CSS
+@import url(https://tiroflanc.github.io/Discord-snippets/AllDiscordSnippets.css);
+```### AnimatedSpinningLogo
 ```CSS
 @import url(https://tiroflanc.github.io/Discord-snippets/AnimatedSpinningLogo.css);
 ```

@@ -24,6 +24,10 @@ Bibliothèque de morceaux de code CSS pour Discord.
 ```CSS
 @import url(https://tiroflanc.github.io/Discord-snippets/NiftyFontPlay.css);
 ```
+### RefreshTitleBar (Credits : https://github.com/chloecinders/visual-refresh-compact-title-bar)
+```CSS
+@import url(https://tiroflanc.github.io/Discord-snippets/RefreshTitleBar.css);
+```
 ### SideBarCollapse
 ```CSS
 @import url(https://tiroflanc.github.io/Discord-snippets/SideBarCollapse.css);

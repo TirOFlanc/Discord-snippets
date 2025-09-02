@@ -14,10 +14,6 @@
 }
 
 .visual-refresh {
-    --vr-header-snippet-top: 0px;
-    --vr-header-snippet-server-padding: 16px;
-    --vr-header-snippet-space: 100px;
-    --vr-header-snippet-button-padding: 10px;
 
     div.chat_f75fb0:not(.threadSidebarOpen_f75fb0),
     main.container__133bf,

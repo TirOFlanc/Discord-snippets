@@ -1,5 +1,10 @@
 /* Supprime le bouton "Rechercher/lancer une conversation" */
 .searchBar__35e86,
+/* Supprime les boutons "Nitro" et "Boutique" */
+:not(.friendsButtonContainer__35e86)>.channel__972a0.container_e45859:not(.dm__972a0),
+/* Supprime le bouton "Créer un MP" */
+.privateChannelsHeaderContainer__99e7c button,
+
 /* Supprime l'icon communautaire dans l'en-tête du serveur */
 .guildIconV2Container__85d16	{display:none}
 

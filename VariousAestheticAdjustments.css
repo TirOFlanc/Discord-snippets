@@ -8,6 +8,10 @@
 .privateChannelsHeaderContainer__99e7c button,
 
 /* Supprime l'icon communautaire dans l'en-tête du serveur */
-.guildIconV2Container__85d16	{display:none}
+.guildIconV2Container__85d16,
+/* Supprime le bouton "Boosts de serveur" */
+.container__877f0,
+/* Supprime les boutons "Créer une invitation" dans la liste des salons */
+[aria-label="Créer une invitation"]	{display:none}
 
 /* Permet de déplacer la fenêtre Discord au lieu de cliquer dans la description de salon */

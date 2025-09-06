@@ -18,7 +18,7 @@
 
 /* Permet de déplacer la fenêtre Discord au lieu de cliquer dans la description de salon */
 .channelNotice__4c43d {position:relative}
-..channelNotice__4c43d div {
+.channelNotice__4c43d div {
   display: none;
   position: absolute;
   background-color: #f9f9f9;

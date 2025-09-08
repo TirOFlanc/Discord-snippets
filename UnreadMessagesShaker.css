@@ -5,7 +5,8 @@
 /* Agite l'avatar du serveur ou du groupe de serveurs dans la colonne des serveurs */
 .pill_e5445c:has([style*="height: 8px"])+div,
 /* Agite les noms de salons */
-.unread__2ea32+div:not(:hover)			{animation:Shaker .5s linear .05s infinite}
+.unread__2ea32+div:not(:hover),
+.link__2ea32:has(.mentionsBadge__933a1)		{animation:Shaker .5s linear .05s infinite}
 
 @keyframes	Shaker	{0%{transform:translate(1px, 1px) rotate(0deg)}
 			 10%{transform:translate(-1px, -2px) rotate(-1deg)}

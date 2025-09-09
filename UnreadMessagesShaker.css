@@ -1,6 +1,6 @@
 .sidebar_c48ade	:is(.listItem__650eb:has([style*="height: 8px"])	.wrapper_cc5dd2,						/* Avatars de contacts et de serveurs */
 		    							:is([aria-label*="non lu"],[aria-label*="mention"]):not(:hover)	/* DMs, salons textuels et vocaux et fils de forum */
-		)															{animation:Shaker .5s linear .05s infinite}
+)																	{animation:Shaker .5s linear .05s infinite}
 
 @keyframes	Shaker	{0%{transform:translate(1px, 1px) rotate(0deg)}
 			 10%{transform:translate(-1px, -2px) rotate(-1deg)}

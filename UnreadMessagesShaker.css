@@ -8,9 +8,9 @@
 .unread__2ea32+div:not(:hover),
 .link__2ea32:has(.mentionsBadge__933a1):not(:hover)*/
 
-/*TEST*/
-.containerDefault_c69b6d:has([aria-label*="non lu"]):not(:hover)
-/******/
+/*TEST
+.containerDefault_c69b6d:has([aria-label*="non lu"]):not(:hover)*/
+/*****
 
 {animation:Shaker .5s linear .05s infinite}
 
@@ -24,4 +24,4 @@
 			 70%{transform:translate(3px, 1px) rotate(-1deg)}
 			 80%{transform:translate(-1px, -1px) rotate(1deg)}
 			 90%{transform:translate(1px, 2px) rotate(0deg)}
-			 100%{transform:translate(1px, -2px) rotate(-1deg)}}
+			 100%{transform:translate(1px, -2px) rotate(-1deg)}}*/

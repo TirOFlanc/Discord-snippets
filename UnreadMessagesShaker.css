@@ -1,12 +1,12 @@
-/* Agite l'avatar du contact ou du groupe dans la colonne des serveurs */
-pill_ed9a5f:has([style*="height: 8px"])+div,
-/* Agite l'avatar et le nom du contact ou du groupe dans les messages privés */
-unreadPill__972a0+div:not(:hover),
-/* Agite l'avatar du serveur ou du groupe de serveurs dans la colonne des serveurs */
-pill_e5445c:has([style*="height: 8px"])+div,
-/* Agite les noms de salons */
-unread__2ea32+div:not(:hover),
-link__2ea32:has(.mentionsBadge__933a1):not(:hover)
+/* Agite l'avatar du contact ou du groupe dans la colonne des serveurs 
+.pill_ed9a5f:has([style*="height: 8px"])+div,*/
+/* Agite l'avatar et le nom du contact ou du groupe dans les messages privés 
+.unreadPill__972a0+div:not(:hover),*/
+/* Agite l'avatar du serveur ou du groupe de serveurs dans la colonne des serveurs 
+.pill_e5445c:has([style*="height: 8px"])+div,*/
+/* Agite les noms de salons 
+.unread__2ea32+div:not(:hover),
+.link__2ea32:has(.mentionsBadge__933a1):not(:hover)*/
 
 /*TEST*/
 .containerDefault_c69b6d:has([aria-label*="non lu"]):not(:hover)

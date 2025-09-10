@@ -14,14 +14,17 @@
 /* Supprime le bouton "Boosts de serveur" */
 .container__877f0,
 /* Supprime les boutons "Créer une invitation" dans la liste des salons */
-[aria-label="Créer une invitation"]	{display:none !important}
+[aria-label="Créer une invitation"],
 
-/* Cache le message de mise en place de l'authentification multi-facteur pour les modérateurs, n'affichant que  */
-.container__6e9be:hover .message__4c43d {display:block}
-.imageContainer__4c43d {margin:0 40% !important}
-.message__4c43d {display:none}
+/* Supprime le message "XXX compatible avec les invitations de jeu. Fermer" au dessus de la barre de messagerie */
+.activityInviteEducation_b88801								{display:none !important}
+
+/* Cache le message de mise en place de l'authentification multi-facteur pour les modérateurs, n'affichant que le svg "Clé" */
+.container__6e9be:hover .message__4c43d							{display:block}
+.imageContainer__4c43d									{margin:0 40% !important}
+.message__4c43d										{display:none}
 
 /* Permet de ne pas avoir un espace en bas des salons lorsque l'on supprime des boutons en haut (effect aussi la liste des membres : même classe) */
-.content__99f8c {height:unset !important}
+.content__99f8c										{height:unset !important}
 
 /* Permet de déplacer la fenêtre Discord au lieu de cliquer dans la description de salon */

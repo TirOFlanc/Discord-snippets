@@ -19,6 +19,9 @@
 /* Supprime le message "XXX compatible avec les invitations de jeu. Fermer" au dessus de la barre de messagerie */
 .activityInviteEducation_b88801								{display:none !important}
 
+/* Estompe le message "••• XXX est en train d'écrire..." au dessus de la barre de messagerie */
+.typing_b88801										{opacity:30%}
+
 /* Cache le message de mise en place de l'authentification multi-facteur pour les modérateurs, n'affichant que le svg "Clé" */
 .container__6e9be:hover .message__4c43d							{display:block}
 .imageContainer__4c43d									{margin:0 40% !important}

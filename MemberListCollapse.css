@@ -5,12 +5,13 @@
 							:is(.container_c8ffbb,.container__7641b):hover					{filter:drop-shadow(0 0 2px);color:var(--channel-icon)}
 
 /* Rétracte le panneau des membres par défaut et le déploie au survole de la souris */
-							:is(.container_c8ffbb,.container__7641b)					{width:var(--custom-member-list-width);transition:width 0.25s}
+							.container_c8ffbb,.container__7641b						{width:var(--custom-member-list-width);transition:width 0.25s}
 							:is(.container_c8ffbb,.container__7641b):hover					{--custom-member-list-width:230px;width:var(--custom-member-list-width)}
 
 /* Supprime tous les noms de groupe, les activités et les membres hors ligne */
-							:is(.membersGroup_c8ffbb,.membersGroup_c8ffbb ~ div:has(.openOnHover__0f2e8),
-							[class*="offline"])								{display:none}
+							.membersGroup_c8ffbb,
+							.membersGroup_c8ffbb ~ div:has(.openOnHover__0f2e8),
+							[class*="offline"]								{display:none}
 
 /* Affiche les noms de groupes (sauf Activité s'il est rétracté), les activités et les membres hors ligne au survole de la souris */
 :is(.container_c8ffbb,.container__7641b):hover		:is(.membersGroup_c8ffbb:not(:has(.toggleExpandIcon__095fe)),
@@ -31,6 +32,6 @@
 
 /* Ajuste l'écart autour des membres */
 :is(.container_c8ffbb,.container__7641b):not(:hover)	[aria-label="Membres"]								{margin:7px 4px}
-							.childContainer__91a9d								{padding:0 4px}
+							[aria-label="Membres"]:has(h2,h3) .childContainer__91a9d			{padding:0 4px}
 :is(.container_c8ffbb,.container__7641b):not(:hover)	.childContainer__91a9d								{padding:0 40px 0 8px}
 :is(.container_c8ffbb,.container__7641b):not(:hover)	.membersGroup_c8ffbb ~ div							{margin:2px 4px}

@@ -32,6 +32,6 @@
 
 /* Ajuste l'écart autour des membres */
 :is(.container_c8ffbb,.container__7641b):not(:hover)	[aria-label="Membres"]						{margin:7px 4px}
-							.childContainer__91a9d						{padding:0 4px}
+:is(.container_c8ffbb,.container__7641b):not(:hover)	[aria-label="Membres"] > div					{margin:2px 4px}
 :is(.container_c8ffbb,.container__7641b):not(:hover)	.childContainer__91a9d						{padding:0 40px 0 8px}
-:is(.container_c8ffbb,.container__7641b):not(:hover)	.membersGroup_c8ffbb ~ div					{margin:2px 4px}
+							.childContainer__91a9d						{padding:0 4px}

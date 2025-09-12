@@ -4,6 +4,7 @@
 	--RetractionSpeed:																									.4s;
 	--ShadowThickness:																									2px
 }
+
 /* Ajoute une aura à gauche au survole de la liste des membres */
 														:is(.container_c8ffbb,.container__7641b):hover					{filter:drop-shadow(0 0 var(--ShadowThickness));color:var(--channel-icon)}
 

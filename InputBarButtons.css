@@ -8,5 +8,5 @@
 .buttons__74017>:not(:has(.emojiButton__74017))	{display:none}
 
 /* Gère le bouton des émojis */
-.emojiButton__74017				{scale:1;opacity:var(--EmojiOpacity);transition:all var(--EmojiTransition) ease-in-out}
-.emojiButton__74017:hover			{scale:var(--EmojiScale);opacity:1}
+.emojiButton__74017								{opacity:var(--EmojiOpacity);scale:1;transition:all var(--EmojiTransition) ease-in-out}
+.emojiButton__74017:hover						{opacity:1;scale:var(--EmojiScale)}

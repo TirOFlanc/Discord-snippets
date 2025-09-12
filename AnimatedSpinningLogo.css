@@ -1,5 +1,7 @@
+/* Gère la couleur et la forme de l'arrière plan du logo Discord */
+							.childWrapperNoHoverBg__6e9f8	{background:transparent;border-radius:50%}
 /* Fait tourner le logo Discord au survole de la souris */
-.childWrapper__6e9f8:hover	>svg	{animation:SpinRebound 1.75s cubic-bezier(.75,0,.25,1) .5s infinite}
+.childWrapper__6e9f8:hover	>svg							{animation:SpinRebound 1.75s cubic-bezier(.75,0,.25,1) .3s infinite}
 
 @keyframes	SpinRebound	{0%		{transform:rotate(0deg)}
 						10%		{transform:rotate(-60deg)}

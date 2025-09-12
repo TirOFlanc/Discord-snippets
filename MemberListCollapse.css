@@ -6,7 +6,7 @@
 
 /* Rétracte le panneau des membres par défaut et le déploie au survole de la souris */
 							.container_c8ffbb,.container__7641b				{width:var(--custom-member-list-width);transition:width 0.25s}
-							:is(.container_c8ffbb,.container__7641b):hover			{--custom-member-list-width:230px;width:var(--custom-member-list-width)}
+							:is(.container_c8ffbb,.container__7641b):hover			{--custom-member-list-width:264px;width:var(--custom-member-list-width)}
 
 /* Supprime tous les noms de groupe, les activités et les membres hors ligne */
 							.membersGroup_c8ffbb,

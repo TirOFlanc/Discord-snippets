@@ -10,3 +10,6 @@
 /* Gère le bouton des émojis */
 .emojiButton__74017								{opacity:var(--EmojiOpacity);scale:1;transition:all var(--EmojiTransition) ease-in-out}
 .emojiButton__74017:hover						{opacity:1;scale:var(--EmojiScale)}
+
+/* Supprime l'espace de l'ascenseur à droite */
+.scrollableContainer__74017::-webkit-scrollbar	{display:none}

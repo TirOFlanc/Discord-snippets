@@ -4,6 +4,12 @@
 	--EmojiTransition:	.2s
 }
 
+/* Ajuste l'écart à gauche et à droite */
+.sansAttachButton__74017						{padding:0 12px 0 16px}
+
+/* Fixe le bouton "+" lorsque l'on scroll */
+.attachWrapper__0923f							{top:0;height:0}
+
 /* Cache tous les boutons sauf celui des émojis */
 .buttons__74017>:not(:has(.emojiButton__74017))	{display:none}
 
@@ -11,7 +17,5 @@
 .emojiButton__74017								{opacity:var(--EmojiOpacity);scale:1;transition:all var(--EmojiTransition) ease-in-out}
 .emojiButton__74017:hover						{opacity:1;scale:var(--EmojiScale)}
 
-/* Ajuste l'écart à gauche et à droite */
-.sansAttachButton__74017						{padding:0 12px 0 16px}
 /* Supprime l'espace de l'ascenseur à droite */
 .scrollableContainer__74017::-webkit-scrollbar	{display:none}

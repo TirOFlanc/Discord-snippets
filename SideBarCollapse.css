@@ -8,8 +8,7 @@
 												.guilds_c48ade									{width:var(--VisibleWidth)!important;transition:var(--SidebarCollapse)}
 
 /* Gère la largeur par défaut de la colonne des amis/salons et de la couverture de serveur */
-/*												.sidebarList_c48ade,.bannerImg_f37cb1			{width:var(--custom-guild-sidebar-width);transition:var(--SidebarCollapse)}*/
-												.sidebarList_c48ade,.bannerImg_f37cb1			{width:calc(var(--custom-guild-sidebar-width) - 20px);transition:var(--SidebarCollapse)}
+												.sidebarList_c48ade,.bannerImg_f37cb1			{width:var(--custom-guild-sidebar-width);transition:var(--SidebarCollapse)}
 
 /* Affiche la colonne des serveurs au survole des colonnes des amis/salons et des serveurs */
 .sidebar_c48ade:has(>:nth-child(-n+2):hover)	{&>.guilds_c48ade								{width:var(--custom-guild-list-width)!important;transition:var(--SidebarExpand)}

@@ -8,6 +8,7 @@
 						:not(.friendsButtonContainer__35e86)>.channel__972a0.container_e45859:not(.dm__972a0),
 /* Supprime le bouton "Créer un MP" */
 						.privateChannelsHeaderContainer__99e7c button,
+
 	/** COLONNE DES SALONS **/
 /* Supprime l'icon communautaire dans l'en-tête du serveur */
 						.guildIconV2Container__85d16,
@@ -17,6 +18,11 @@
 						.container__877f0,
 /* Supprime les boutons "Créer une invitation" dans la liste des salons */
 						[aria-label="Créer une invitation"],
+
+	/** ZONE UTILISATEUR **/
+/* Supprime le "+1 activité" dans la zone utilisateur */
+						.activityCounter_c9d15c,
+
 	/** MESSAGERIE **/
 /* Supprime le message "XXX compatible avec les invitations de jeu. Fermer" au dessus de la barre de messagerie */
 						.activityInviteEducation_b88801															{display:none!important}
@@ -43,3 +49,7 @@
 	/** MESSAGERIE **/
 /* Estompe le message "••• XXX est en train d'écrire..." au dessus de la barre de messagerie */
 						.typing_b88801																			{opacity:30%}
+
+	/** PAGE "QUÊTES" **/
+/* Baisse le bouton du montant des Orbs */
+						.container_a3e8db																		{top:50px;right:-40px}

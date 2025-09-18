@@ -12,6 +12,10 @@ Bibliothèque de morceaux de code CSS pour Discord.
 ```CSS
 @import url(https://tiroflanc.github.io/Discord-snippets/AnimatedSpinningLogo.css);
 ```
+### DiscordQuestSpotlight
+```CSS
+@import url(https://tiroflanc.github.io/Discord-snippets/DiscordQuestSpotlight.css);
+```
 ### InputBarButtons
 ```CSS
 @import url(https://tiroflanc.github.io/Discord-snippets/InputBarButtons.css);
@@ -24,7 +28,7 @@ Bibliothèque de morceaux de code CSS pour Discord.
 ```CSS
 @import url(https://tiroflanc.github.io/Discord-snippets/NiftyFontPlay.css);
 ```
-### RefreshTitleBar (Credits : https://github.com/chloecinders/visual-refresh-compact-title-bar)
+### RefreshTitleBar (Credits to [Chloe Cinders](https://github.com/chloecinders) : https://github.com/chloecinders/visual-refresh-compact-title-bar)
 ```CSS
 @import url(https://tiroflanc.github.io/Discord-snippets/RefreshTitleBar.css);
 ```
@@ -32,7 +36,7 @@ Bibliothèque de morceaux de code CSS pour Discord.
 ```CSS
 @import url(https://tiroflanc.github.io/Discord-snippets/SideBarCollapse.css);
 ```
-### UnreadMessagesShaker
+### UnreadMessagesShaker (Inspired by [Saltssaumure](https://github.com/Saltssaumure) : https://github.com/MiniDiscordThemes/Snippets/tree/main/themes/UnreadShake)
 ```CSS
 @import url(https://tiroflanc.github.io/Discord-snippets/UnreadMessagesShaker.css);
 ```

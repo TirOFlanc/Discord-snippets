@@ -27,21 +27,27 @@
 /* Supprime le message "XXX compatible avec les invitations de jeu. Fermer" au dessus de la barre de messagerie */
 						.activityInviteEducation_b88801															{display:none!important}
 
+/******************************************************************************************************************************************************/
 /*** AUTRES ***/
 	/** GLOBAL **/
 /* Permet de déplacer la fenêtre Discord au lieu de cliquer dans la description de salon */
 /*###########################################################*/
+
+	/** COLONNE DES SERVEURS **/
+/* Modifie la couleur et la forme de l'arrière plan des boutons "Ajoute un serveur" et "Découvrir" */
+						.circleIconButton__5bc7e																{border-radius:50%;transition:all .1s ease-out;
+						&.selected__5bc7e																		{background:var(--bg-brand)!important}}
 
 	/** COLONNE DES SALONS **/
 /* Cache le message de mise en place de l'authentification multi-facteur pour les modérateurs, n'affichant que le svg "Clé" */
 						.imageContainer__4c43d																	{margin:0 40%!important}
 						.message__4c43d																			{display:none}
 .container__6e9be:hover	.message__4c43d																			{display:block}
-/* Gère la taille des icons de salons */
+/* Modifie la taille des icons de salons */
 						.iconContainer__2ea32																	{zoom:.75}
-/* Gère l'espace avant "Définir un statut de salon" sous les salons vocaux */
+/* Modifie l'espace avant "Définir un statut de salon" sous les salons vocaux */
 						.linkBottom__2ea32																		{margin-left:10px}
-/* Gère l'espace avant les membres connectés en vocal */
+/* Modifie l'espace avant les membres connectés en vocal */
 						.list__07f91																			{padding-left:20px}
 /* Permet de ne pas avoir un espace en bas des salons lorsque l'on supprime des boutons en haut (effect aussi la liste des membres : même classe) */
 						.content__99f8c																			{height:unset!important}

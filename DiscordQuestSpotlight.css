@@ -1,5 +1,5 @@
 /* Estompe les quêtes accomplies */
-.container_cec934:not(:has([aria-busy="false"],.progressWrapper__956c6)):not(:hover)	{opacity:.25}
+container_cec934:not(:has([aria-busy="false"],.progressWrapper__956c6)):not(:hover)	{opacity:.25}
 
 /* Supprime les quêtes dont la période est terminée */
-container_cec934:has([disabled=""])													{display:none}
+container_cec934:not(:has(.progressWrapper__956c6)):has([disabled=""])					{display:none}

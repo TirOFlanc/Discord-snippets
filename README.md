@@ -28,7 +28,7 @@ Bibliothèque de morceaux de code CSS pour Discord.
 ```CSS
 @import url(https://tiroflanc.github.io/Discord-snippets/NiftyFontPlay.css);
 ```
-### RefreshTitleBar (Credits to [Chloe Cinders](https://github.com/chloecinders) : [Repo &#xf08e;](https://github.com/chloecinders/visual-refresh-compact-title-bar))
+### RefreshTitleBar (Credits to [Chloe Cinders](https://github.com/chloecinders) : [Repo◹](https://github.com/chloecinders/visual-refresh-compact-title-bar))
 ```CSS
 @import url(https://tiroflanc.github.io/Discord-snippets/RefreshTitleBar.css);
 ```
@@ -36,7 +36,7 @@ Bibliothèque de morceaux de code CSS pour Discord.
 ```CSS
 @import url(https://tiroflanc.github.io/Discord-snippets/SideBarCollapse.css);
 ```
-### UnreadMessagesShaker (Inspired by [Saltssaumure](https://github.com/Saltssaumure) : [Repo &#xf08e;](https://github.com/MiniDiscordThemes/Snippets/tree/main/themes/UnreadShake))
+### UnreadMessagesShaker (Inspired by [Saltssaumure](https://github.com/Saltssaumure) : [Repo ⇗](https://github.com/MiniDiscordThemes/Snippets/tree/main/themes/UnreadShake))
 ```CSS
 @import url(https://tiroflanc.github.io/Discord-snippets/UnreadMessagesShaker.css);
 ```

@@ -1,0 +1,17 @@
+:root {
+/* Aurore */
+	--Aurore-On:				url("https://cdn.discordapp.com/avatar-decoration-presets/a_386445551be850bb16b73a225d0d0602.png?passthrough=true");
+	--Aurore-Off:				url("https://cdn.discordapp.com/avatar-decoration-presets/a_386445551be850bb16b73a225d0d0602.png?passthrough=false");
+
+/* Coup de cœur */
+	--CoupDeCœur-On:			url("https://cdn.discordapp.com/avatar-decoration-presets/a_7f44d538ec830f479605f7bf8720afda.png?passthrough=true");
+	--CoupDeCœur-Off:			url("https://cdn.discordapp.com/avatar-decoration-presets/a_7f44d538ec830f479605f7bf8720afda.png?passthrough=false");
+
+/* Portail magique (Violet) */
+	--PortailMagiqueViolet-On:	url("https://cdn.discordapp.com/avatar-decoration-presets/a_72d1fd7c47cc7a98c8f64d175773344b.png?passthrough=true");
+	--PortailMagiqueViolet-Off:	url("https://cdn.discordapp.com/avatar-decoration-presets/a_72d1fd7c47cc7a98c8f64d175773344b.png?passthrough=false");
+
+/* Poussière d'étoile */
+	--PoussièreDÉtoile-On:		url("https://cdn.discordapp.com/avatar-decoration-presets/a_a47890109a231f72dae7b17b27164676.png?passthrough=true");
+	--PoussièreDÉtoile-Off:		url("https://cdn.discordapp.com/avatar-decoration-presets/a_a47890109a231f72dae7b17b27164676.png?passthrough=false");
+}

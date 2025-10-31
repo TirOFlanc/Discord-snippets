@@ -65,7 +65,7 @@
 			/* Les autres */
 		/** Récupération du statut **/
 		.layout__20a53:not(.avatarWithText__972a0,								/* Colonne des conversations privées */
-		:has(.subtext__972a0/*,[mask*="default"]*/)),								/* ... boutons de menu, groupes et bot système ainsi que l'aperçu dans les paramètres exclus */
+		:has(.subtext__972a0,[mask*="default"])),								/* ... boutons de menu, groupes et bot système ainsi que l'aperçu dans les paramètres exclus */
 		.userInfo__0a06e,														/* Page de la liste des amis */
 		.header__00943,															/* Colonne des activités des amis */
 		.memberItem__5017b:has(rect),											/* Menu lors d'un clic sur les activités des amis (partage .info_f4bc97) */

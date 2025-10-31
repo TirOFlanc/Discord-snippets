@@ -74,7 +74,7 @@
 		.profile__9c3be,														/* Profil complet d'un membre */
 		.avatarWrapper__37e49,													/* Zone utilisateur */
 		.userInfo__1fed1,														/* Paramètres utilisateur - Mon compte (partage .info_f4bc97) */
-		.user-profile-popout>div:not(:has(.bot__63ed3)),						/* Paramètres utilisateur - Profils (partage .nickname__63ed3) */
+		.user-profile-popout>div:not(:has([mask*="default"])),						/* Paramètres utilisateur - Profils (partage .nickname__63ed3) */
 		.member__5d473															/* Colonne des membres de groupe de discussion et de serveur */
 		{
 			&:has([fill="#43a25a"],[mask*="online"]) {--Status:#43a25a}

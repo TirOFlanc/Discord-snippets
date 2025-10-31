@@ -57,7 +57,7 @@
 			/** Coloration du pseudo selon le statut **/
 			.nickname__63ed3
 			{
-				color:var(--Status,var(--Groulor));
+				color:var(--Status,var(--Groulor))!important;
 				transition:color 1s
 			}
 		}

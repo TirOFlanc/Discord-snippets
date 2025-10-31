@@ -90,7 +90,7 @@
 			.title__9293f,.nicknames__488b1>span,								/* En-tête des conversations privées */
 			.hoverableContainer__754bd>div,										/* ... pseudo principal et pseudos de serveur et nom de groupe */
 			.info_f4bc97,														/* Liste des amis en commun (à plusieurs endroits) */
-			.nickname__63ed3,													/* Profil complet d'un membre */
+			.nickname__63ed3,.nicknameWithDisplayNameStyles__63ed3,				/* Profil complet d'un membre */
 			.title_b6c092,														/* Zone utilisateur */
 			&:not([data-list-item-id]):has(rect) .name__703b9					/* Colonne des membres de groupe de discussion */
 			{

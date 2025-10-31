@@ -71,7 +71,7 @@
 		.memberItem__5017b:has(rect),											/* Menu lors d'un clic sur les activités des amis (partage .info_f4bc97) */
 		.children__9293f:not(:has(.icon__9293f,[class*="tab"])),				/* En-tête des conversations privées */
 		.row__89036,															/* Liste des amis en commun (à plusieurs endroits) */
-		[class*="user-profile"]:not([class*="sidebar"]),						/* Profil complet et paramètres utilisateur - Profils */
+		[class*="user-profile"]:not([class*="sidebar"])>div,						/* Profil complet et paramètres utilisateur - Profils */
 		.avatarWrapper__37e49,													/* Zone utilisateur */
 		.userInfo__1fed1,														/* Paramètres utilisateur - Mon compte (partage .info_f4bc97) */
 		.member__5d473															/* Colonne des membres de groupe de discussion et de serveur */

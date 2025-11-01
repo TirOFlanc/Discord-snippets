@@ -1,0 +1,120 @@
+:root {
+	--Groulor:	#5D64EF	/* var(--bg-brand) */
+}
+
+.visual-refresh {
+	#app-mount {
+
+	/*** Rétrécissement de la barre de défilement de 2px ***/
+		.members_c8ffbb::-webkit-scrollbar {width:6px}
+
+	/*** Suppression de l'indicateur de statut par défaut ***/
+		.wrapper__44b0c,
+		.container__1ce5d {
+			rect,circle,
+			.status_a423bd {display:none}
+
+			[mask] {mask:none}
+
+			.mask__44b0c .avatar__44b0c,
+			& :is([src*="avatars"],[src*="assets"]) { 
+				border-radius:50%
+			}
+		}
+
+	/*** Remplace l'indicateur de frappe ***/
+		[class*="layout"]:has(.dots__5ad89) {
+			& :is([src*="avatars"],[src*="assets"],[class*="emoji"],.badge__10651,path) {
+				will-change:transform;
+				transform-origin:50% 50%;
+				animation:rotate 1.25s infinite linear
+			}
+
+			& [class*="content"] {
+				will-change:transform;
+				transform-origin:0% 50%;
+				animation:rubber 1.25s infinite linear
+			}
+		}
+
+	/*** Colorise les groupes et le bot système et estompe les utilisateurs supprimés de la colonne des conversations privées ***/
+		.layout__20a53 {			
+			&:has(.subtext__972a0) .name__20a53 {color:var(--Groulor)}
+
+			&:has([aria-label*="deleted_user"]):not(:hover) {opacity:.25}
+		}
+
+	/*** Remplacement de l'indicateur de statut ***/
+			/* Cas particulier */
+		/** Récupération du statut **/
+		.user-profile-sidebar
+		{
+			&:has(.header__7f9c0 [fill="#43a25a"]) {--Status:#43a25a}			/* Sidebar de conversation privée car : */
+			&:has(.header__7f9c0 [fill="#ca9654"]) {--Status:#ca9654}			/* Problème lorsque l'on déplie les amis en commun */
+			&:has(.header__7f9c0 [fill="#d83a42"]) {--Status:#d83a42}			/* Le parent du statut et du pseudo a aussi pour fils les amis en commun */
+			&:has(.header__7f9c0 [fill="#82838b"]) {--Status:#82838b}
+
+			/** Coloration du pseudo selon le statut **/
+			.nickname__63ed3
+			{
+				color:var(--Status,var(--Groulor));
+				transition:color 1s
+			}
+		}
+
+			/* Les autres */
+		/** Récupération du statut **/
+		.layout__20a53:not(.avatarWithText__972a0,								/* Colonne des conversations privées */
+		:has(.subtext__972a0,[mask*="default"])),								/* ... boutons de menu, groupes et bot système ainsi que l'aperçu dans les paramètres exclus */
+		.userInfo__0a06e,														/* Page de la liste des amis */
+		.header__00943,															/* Colonne des activités des amis */
+		.memberItem__5017b:has(rect),											/* Menu lors d'un clic sur les activités des amis (partage .info_f4bc97) */
+		.children__9293f:not(:has(.icon__9293f,[class*="tab"])),				/* En-tête des conversations privées */
+		.row__89036,															/* Liste des amis en commun (à plusieurs endroits) */
+		.profile__9c3be,.user-profile-modal,									/* Profil complet d'un membre et d'un bot */
+		.avatarWrapper__37e49,													/* Zone utilisateur */
+		.userInfo__1fed1,														/* Paramètres utilisateur - Mon compte (partage .info_f4bc97) */
+		.user-profile-popout>div,												/* Paramètres utilisateur - Profils (partage .nickname__63ed3) */
+		.member__5d473															/* Colonne des membres de groupe de discussion et de serveur */
+		{
+			&:has([fill="#43a25a"],[mask*="online"]) {--Status:#43a25a}
+			&:has([fill="#ca9654"],[mask*="idle"]) {--Status:#ca9654}
+			&:has([fill="#d83a42"],[mask*="dnd"]) {--Status:#d83a42}
+			&:has([fill="#82838b"],[mask*="offline"]) {--Status:#82838b}
+
+			/** Coloration des pseudos selon le statut **/
+			.name__20a53,														/* Colonne des conversations privées */
+			.username__0a06e,													/* Page de la liste des amis */
+			.textContent__00943:first-child>:first-child,						/* Colonne des activités des amis */
+			.textContent__00943:first-child:not(:has(*)),						/* ... quand il n'y a qu'un seul participant */
+			.title__9293f,.nicknames__488b1>span,								/* En-tête des conversations privées */
+			.hoverableContainer__754bd>div,										/* ... pseudo principal et pseudos de serveur et nom de groupe */
+			.info_f4bc97,														/* Liste des amis en commun (à plusieurs endroits) */
+			.nickname__63ed3,.nicknameWithDisplayNameStyles__63ed3,				/* Profil complet d'un membre */
+			.title_b6c092,														/* Zone utilisateur */
+			&:not([data-list-item-id]):has(rect) .name__703b9					/* Colonne des membres de groupe de discussion */
+			{
+				color:var(--Status,var(--Groulor))!important;
+				transition:color 1s
+			}
+
+			/** Ajout d'un liseré à gauche et à droite du membre selon son statut **/
+			.childContainer__91a9d												/* Colonne des membres de groupe de discussion et de serveur */
+			{
+				box-shadow:-2px 0 0 0 var(--Status),2px 0 0 0 var(--Status);
+				transition:box-shadow 1s
+			}
+		}
+	}
+}
+
+@keyframes	rotate	{0%	{transform:rotate3d(0,0,1,0)}
+					100%{transform:rotate3d(0,0,1,360deg)}}
+
+@keyframes	rubber	{0%	{transform:scale3d(1,1,1)}
+					30%	{transform:scale3d(1.25,0.75,1)}
+					40%	{transform:scale3d(0.75,1.25,1)}
+					50%	{transform:scale3d(1.15,0.85,1)}
+					65%	{transform:scale3d(.95,1.05,1)}
+					75%	{transform:scale3d(1.05,.95,1)}
+					100%{transform:scale3d(1,1,1)}}

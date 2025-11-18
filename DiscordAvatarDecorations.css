@@ -14,4 +14,8 @@
 /* Poussière d'étoile */
 	--PoussièreDÉtoile-On:		url("https://cdn.discordapp.com/avatar-decoration-presets/a_a47890109a231f72dae7b17b27164676.png?passthrough=true");
 	--PoussièreDÉtoile-Off:		url("https://cdn.discordapp.com/avatar-decoration-presets/a_a47890109a231f72dae7b17b27164676.png?passthrough=false");
+
+/* Demander à Max */
+	--Name-On:					url("https://cdn.discordapp.com/avatar-decoration-presets/a_d1e5d3aabccb3d38f21b5ac8a33fcf4d.png?passthrough=true");
+	--Name-Off:					url("https://cdn.discordapp.com/avatar-decoration-presets/a_d1e5d3aabccb3d38f21b5ac8a33fcf4d.png?passthrough=false");
 }

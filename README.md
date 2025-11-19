@@ -12,6 +12,10 @@ Bibliothèque de morceaux de code CSS pour Discord.
 ```CSS
 @import url(https://tiroflanc.github.io/Discord-snippets/AnimatedSpinningLogo.css);
 ```
+### ColorizedStatusIndicator (v2)
+```CSS
+@import url(https://tiroflanc.github.io/Discord-snippets/ColorizedStatusIndicator.css);
+```
 ### DiscordQuestSpotlight
 ```CSS
 @import url(https://tiroflanc.github.io/Discord-snippets/DiscordQuestSpotlight.css);

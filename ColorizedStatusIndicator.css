@@ -8,6 +8,12 @@
 	/** Ajustement du dépassement des tags dans la colonne des conversations */
 		.content__20a53,.name__20a53 {overflow:visible}
 
+	/*** Estompage des utilisateurs supprimés de la colonne des conversations privées ***/
+		.dm__972a0:has([aria-label*="deleted_user"]):not(:has([class*="selected"]),:hover) {opacity:.25}
+
+	/** Suppression du statut en texte sous les pseudo de la liste des amis **/
+		.text__19b6d {display:none}
+
 	/*** Ajustement de la barre de défilement de la colonne des membres ***/
 		.members_c8ffbb::-webkit-scrollbar {width:6px}
 
@@ -39,9 +45,6 @@
 				animation:rubber 1.25s infinite linear
 			}
 		}
-
-	/*** Estompage des utilisateurs supprimés de la colonne des conversations privées ***/
-		.dm__972a0:has([aria-label*="deleted_user"]):not(:has([class*="selected"]),:hover) {opacity:.25}
 
 	/*** Colorisation des groupes et du bot système ***/
 		.notAppAsidePanel_a3002d {

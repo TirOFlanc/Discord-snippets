@@ -85,7 +85,7 @@
 		.userInfo__1fed1,														/* Paramètres utilisateur - Mon compte : "info_f4bc97" */
 		.avatarWrapper__37e49,													/* Zone utilisateur : "title_b6c092", "hovered__0263c" et "truncated_c9d15c" */
 
-		.member__5d473:has(rect)												/* Colonne des membres de groupe de discussion et de serveur : "childContainer__91a9d", "wrapper__44b0c" et "truncated_c9d15c" */
+		.member__5d473:has(rect)												/* Colonne des membres de groupe et de serveur : "childContainer__91a9d", "wrapper__44b0c" et "truncated_c9d15c" */
 		{
 			&:has(rect[fill="#43a25a"],rect[mask*="online"]) {--Status:#43a25a}
 			&:has(rect[fill="#ca9654"],rect[mask*="idle"]) {--Status:#ca9654}
@@ -110,10 +110,16 @@
 			.childContainer__91a9d
 			{
 				box-shadow:-2px 0 0 0 var(--Status,transparent),2px 0 0 0 var(--Status,transparent);
-				transition:box-shadow 1.5s;
+				transition:box-shadow 1.5s
+			}
 
-				/** Ajout d'une aura autour de l'avatar **/
-				.wrapper__44b0c {
+			/** Ajout d'une aura autour de l'avatar **/
+			:is(.channel__972a0,												/* Colonne des conversations */
+			.container__37e49,													/* Zone utilisateur */
+			.members_c8ffbb) &													/* Colonne des membres de groupe et de serveur */
+			{
+				.wrapper__44b0c
+				{
 					box-shadow:0 0 5px 2px var(--Status,transparent);
 					transition:box-shadow 1.5s
 				}

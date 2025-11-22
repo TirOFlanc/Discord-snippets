@@ -1,16 +1,36 @@
 :root {
-	--SidebarCollapse:																			width .15s ease-in-out .3s;
-	--SidebarExpand:																			width .3s ease-in-out .15s;
-	--VisibleWidth:																				1px
+	--SidebarWidth: 1px;
+	--SidebarCollapse: width .15s ease-in-out .3s;
+	--SidebarExpand: width .3s ease-in-out .15s
 }
 
-/* Gère la largeur par défaut de la colonne des serveurs */
-												.guilds_c48ade									{width:var(--VisibleWidth)!important;transition:var(--SidebarCollapse)}
+.sidebar__5e434 {
+	.guilds__5e434,
+	.sidebarList__5e434,
+	.bannerImg_f37cb1 {
+		will-change:width;
+		transition:var(--SidebarCollapse)
+	}
 
-/* Gère la largeur par défaut de la colonne des amis/salons et de la couverture de serveur */
-/*												.sidebarList_c48ade,.bannerImg_f37cb1			{width:var(--custom-guild-sidebar-width);transition:var(--SidebarCollapse)}
-*/												.sidebarList_c48ade,.bannerImg_f37cb1			{width:calc(var(--custom-guild-sidebar-width) - 14px);transition:var(--SidebarCollapse)}
+	.guilds__5e434 {width:var(--SidebarWidth)}
 
-/* Affiche la colonne des serveurs au survole des colonnes des amis/salons et des serveurs */
-.sidebar_c48ade:has(>:nth-child(-n+2):hover)	{&>.guilds_c48ade								{width:var(--custom-guild-list-width)!important;transition:var(--SidebarExpand)}
-												&>.sidebarList_c48ade,& .bannerImg_f37cb1		{width:calc(var(--custom-guild-sidebar-width) - 14px + var(--VisibleWidth) - var(--custom-guild-list-width));transition:var(--SidebarExpand)}}
+	.sidebarList__5e434,
+	.bannerImg_f37cb1 {
+		width:calc(var(--custom-guild-sidebar-width) - var(--SidebarWidth) - 1px)
+	}
+
+	&:has(>:nth-child(-n+2):hover) {
+		.guilds__5e434,
+		.sidebarList__5e434,
+		.bannerImg_f37cb1 {
+			transition:var(--SidebarExpand)
+		}
+
+		.guilds__5e434 {width:var(--custom-guild-list-width)}
+
+		.sidebarList__5e434,
+		.bannerImg_f37cb1 {
+			width:calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) - 1px)
+		}
+	}
+}

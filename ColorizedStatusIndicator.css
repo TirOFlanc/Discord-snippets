@@ -51,6 +51,24 @@
 			[class*="user-profile"]>div:has([aria-label="discord"])				/* Aperçu de profil et profil complet (bot système) */
 			:is(.nickname__63ed3,.username__05e81)								/* ... Nom / Description */
 			{color:var(--Groulor)!important}
+			
+			.dm__972a0:has(.subtext__972a0) 
+			{
+				&:has(rect[fill="#43a25a"],rect[mask*="online"],.status_a423bd)
+				{
+					:is(.wrapper__44b0c,.container__1ce5d)::before {
+						top:-5%;
+						left:-5%;
+						height:110%;
+						width:110%;
+						content: "";
+						position:absolute;
+						border-radius:50%;
+						filter:blur(2.25px);
+						background:radial-gradient(circle,var(--Groulor))
+					}
+				}
+			}
 		}
 
 	/*** Remplacement de l'indicateur de statut ***/

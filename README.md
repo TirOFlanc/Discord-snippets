@@ -52,3 +52,7 @@ Bibliothèque de morceaux de code CSS pour Discord.
 ```CSS
 @import url(https://tiroflanc.github.io/Discord-snippets/VariousAestheticAdjustments.css);
 ```
+### VisualVoiceIndicator (v2)
+```CSS
+@import url(https://tiroflanc.github.io/Discord-snippets/VisualVoiceIndicator.css);
+```

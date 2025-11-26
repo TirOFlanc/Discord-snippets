@@ -17,7 +17,7 @@
 	/*** Suppression de l'indicateur de statut par défaut ***/
 		.wrapper__44b0c,
 		.container__1ce5d {
-			rect,circle,
+			rect,circle,>div,
 			.status_a423bd {display:none}
 
 			[mask] {mask:none}
@@ -30,7 +30,7 @@
 
 	/*** Remplacement de l'indicateur de frappe ***/
 		[class*="layout"]:has(.dots__5ad89) {
-			& :is([src*="avatars"],[src*="assets"],[class*="emoji"],.badge__10651,path) {
+			& :is([src*="avatars"],[src*="channel-icon"],[src*="assets"],[class*="emoji"],.badge__10651,path) {
 				will-change:transform;
 				transform-origin:50% 50%;
 				animation:rotate 1.25s infinite linear
@@ -54,7 +54,7 @@
 			
 			.dm__972a0:has(.subtext__972a0) 
 			{
-				&:has(rect[fill="#43a25a"],rect[mask*="online"],.status_a423bd)
+				&:has(.status_a423bd,rect[fill="#43a25a"],rect[mask*="online"],[mask*="typing"])
 				{
 					:is(.wrapper__44b0c,.container__1ce5d)::before {
 						top:-5%;

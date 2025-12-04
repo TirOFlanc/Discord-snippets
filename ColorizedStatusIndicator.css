@@ -47,7 +47,7 @@
 		.notAppAsidePanel_a3002d {
 			.dm__972a0:has(.subtext__972a0) .name__20a53>div,					/* Colonne des conversations (groupes et bot système) */
 			.children__9293f:not(:has(rect))									/* En-tête des conversations */
-			:is(span>div>div:nth-child(2),div>h1>span:first-child),				/* ... Groupe / Bot système */
+			:is(span>div>div:nth-child(2),div>h1>span[class]:first-child,		/* ... Groupe / Bot système */
 			[class*="user-profile"]>div:has([aria-label="discord"])				/* Aperçu de profil et profil complet (bot système) */
 			:is(.nickname__63ed3,.username__05e81)								/* ... Nom / Description */
 			{color:var(--Groulor)!important}

@@ -1,11 +1,7 @@
 :root {
-/*** BASE URL ***/
-	--BASE_URL:					"https://cdn.discordapp.com/avatar-decoration-presets"
-/****************/
-
 /* Aurore */
-	--Aurore-On:				url(var(--BASE_URL)"/a_386445551be850bb16b73a225d0d0602.png?passthrough=true");
-	--Aurore-Off:				url(var(--BASE_URL)"/a_386445551be850bb16b73a225d0d0602.png?passthrough=false");
+	--Aurore-On:				url("https://cdn.discordapp.com/avatar-decoration-presets/a_386445551be850bb16b73a225d0d0602.png?passthrough=true");
+	--Aurore-Off:				url("https://cdn.discordapp.com/avatar-decoration-presets/a_386445551be850bb16b73a225d0d0602.png?passthrough=false");
 
 /* Coup de cœur */
 	--CoupDeCœur-On:			url("https://cdn.discordapp.com/avatar-decoration-presets/a_7f44d538ec830f479605f7bf8720afda.png?passthrough=true");

@@ -1,12 +1,12 @@
 .visual-refresh {
 	.sidebar__5e434 {
-		[class*="avatarSpeaking"] {box-shadow:unset}
+		[style*="speaking"] {box-shadow:unset!important}
 
 		.content__07f91,
 		.avatarWrapper__37e49 {
 			transition:box-shadow .15s;
 
-			&:has([class*="Speaking"]) {
+			&:has([style*="speaking"]) {
 				box-shadow:inset 0 0 2px 1px var(--status-speaking);
 
 				.container__394db {

@@ -1,4 +1,5 @@
 # Discord-Snippets (Visual-Refresh)
+Bibliothèque de morceaux de code CSS pour Discord.
 ---
 ## Liens d'importation :
 

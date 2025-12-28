@@ -1,0 +1,38 @@
+:root {
+	--SidebarWidth:		1px;
+	--SidebarCollapse:	width .15s ease-in-out .3s;
+	--SidebarExpand:	width .3s ease-in-out .15s
+}
+
+.visual-refresh {
+	._5e434347c823b592-sidebar {
+		._5e434347c823b592-guilds,
+		._5e434347c823b592-sidebarList,
+		.f37cb1984c371ee5-bannerImg {
+			will-change:width;
+			transition:var(--SidebarCollapse)
+		}
+
+		._5e434347c823b592-guilds {width:var(--SidebarWidth)}
+
+		._5e434347c823b592-sidebarList,
+		.f37cb1984c371ee5-bannerImg {
+			width:calc(var(--custom-guild-sidebar-width) - var(--SidebarWidth) - 1px)
+		}
+
+		&:has(>:nth-child(-n+2):hover) {
+			._5e434347c823b592-guilds,
+			._5e434347c823b592-sidebarList,
+			.f37cb1984c371ee5-bannerImg {
+				transition:var(--SidebarExpand)
+			}
+
+			._5e434347c823b592-guilds {width:var(--custom-guild-list-width)}
+
+			._5e434347c823b592-sidebarList,
+			.f37cb1984c371ee5-bannerImg {
+				width:calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) - 1px)
+			}
+		}
+	}
+}

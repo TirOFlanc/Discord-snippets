@@ -48,7 +48,7 @@ _Bibliothèque de morceaux de code CSS pour Discord._
 
 ---
 
-* ## AllInOne
+* ### AllInOne
 ```CSS
 @import url(https://tiroflanc.github.io/Discord-Snippets/AnimatedSpinningLogo.css);
 @import url(https://tiroflanc.github.io/Discord-Snippets/ColorizedStatusIndicator.css);

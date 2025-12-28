@@ -1,0 +1,47 @@
+/** Quête d'Orbs **/
+/* Lueur au-dessus */
+.container_cec934:has(.image__7d7b6):has([aria-busy="false"],.progressWrapper__956c6)::after	{content:"";position:absolute;inset:0;pointer-events:none;z-index:2;background:linear-gradient(DeepPink,Purple,Purple,Red);animation:PinkHighlight 1s linear infinite alternate}
+@keyframes	PinkHighlight	{0%	{opacity:.2}
+							100%{opacity:.5}}
+/* Néon rose qui respire avec effet de zoom */
+.container_cec934:has(.image__7d7b6):has([aria-busy="false"])									{animation:PinkGlow 1s ease-in-out infinite alternate;z-index:3;overflow:auto!important}
+@keyframes	PinkGlow	{0%	{box-shadow:0 0 20px 6px #cc33ff,0 0 10px 6px #cc0099;transform:scale(.95)}
+						100%{box-shadow:0 0 40px 9px #cc33ff,0 0 20px 9px #cc0099;transform:scale(1.01)}}
+
+/** Quête de decoration **/
+/* Lueur au-dessus */
+.container_cec934:has([alt="Récompense de quête"][src*=".mp4"]):has([aria-busy="false"])::after	{content:"";position:absolute;inset:0;pointer-events:none;z-index:2;background:linear-gradient(DarkMagenta,Purple,Purple,BlueViolet);animation:PurpleHighlight 1s linear infinite alternate}
+@keyframes	PurpleHighlight	{0%	{opacity:.3}
+							100%{opacity:.5}}
+/* Néon violet qui tourne en arrière plan */
+.container_cec934:has([alt="Récompense de quête"][src*=".mp4"]):has([aria-busy="false"])		{animation:SpinGlow 1s linear infinite}
+@keyframes  SpinGlow	{0%	{box-shadow:-9px -9px 12px 3px #8844ff}
+						25%	{box-shadow:9px -9px 9px 2px #8844ff}
+						50%	{box-shadow:9px  9px 12px 3px #8844ff}
+						75%	{box-shadow:-9px  9px 9px 2px #8844ff}
+						100%{box-shadow:-9px -9px 12px 3px #8844ff}}
+/* Néon violet qui respire en arrière plan */
+.container_cec934:has([alt="Récompense de quête"][src*=".mp4"]):has(.progressWrapper__956c6)	{animation:NeonGlow 1s linear infinite alternate}
+@keyframes	NeonGlow	{0%	{box-shadow:0 0 9px 6px #8844ff}
+						100%{box-shadow:0 0 18px 12px #8844ff}}
+
+/* Estompe les quêtes accomplies */
+.container_cec934:not(:has([aria-busy="false"],.progressWrapper__956c6)):not(:hover)			{opacity:.25}
+/* "Supprime" les quêtes dont la période est terminée */
+.container_cec934:not(:has(.progressWrapper__956c6)):has([disabled=""])							{/*display:none*/opacity:.01}
+
+/****************************************************************************************************/
+/* Quêtes Orbs disponibles */
+/*.container_cec934:has(.image__7d7b6):has([aria-busy="false"])
+/* Quêtes Orbs en cours */
+/*.container_cec934:has(.image__7d7b6):has(.progressWrapper__956c6)
+/* Quêtes Orbs disponibles ou en cours */
+/*.container_cec934:has(.image__7d7b6):has([aria-busy="false"],.progressWrapper__956c6)
+/****************************************************************************************************/
+/* Quêtes Décorations disponibles */
+/*.container_cec934:has([alt="Récompense de quête"][src*=".mp4"]):has([aria-busy="false"])
+/* Quêtes Décorations en cours */
+/*.container_cec934:has([alt="Récompense de quête"][src*=".mp4"]):has(.progressWrapper__956c6)
+/* Quêtes Décorations disponibles ou en cours */
+/*.container_cec934:has([alt="Récompense de quête"][src*=".mp4"]):has([aria-busy="false"],.progressWrapper__956c6)
+/****************************************************************************************************/

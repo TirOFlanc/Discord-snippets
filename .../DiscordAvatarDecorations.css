@@ -1,0 +1,53 @@
+:root {
+/* Aurore */
+	--Aurore-On:				url(https://cdn.discordapp.com/avatar-decoration-presets/a_386445551be850bb16b73a225d0d0602.png?passthrough=true);
+	--Aurore-Off:				url(https://cdn.discordapp.com/avatar-decoration-presets/a_386445551be850bb16b73a225d0d0602.png?passthrough=false);
+
+/* Coup de cœur */
+	--CoupDeCœur-On:			url(https://cdn.discordapp.com/avatar-decoration-presets/a_7f44d538ec830f479605f7bf8720afda.png?passthrough=true);
+	--CoupDeCœur-Off:			url(https://cdn.discordapp.com/avatar-decoration-presets/a_7f44d538ec830f479605f7bf8720afda.png?passthrough=false);
+
+/* Portail magique (Violet) */
+	--PortailMagiqueViolet-On:	url(https://cdn.discordapp.com/avatar-decoration-presets/a_72d1fd7c47cc7a98c8f64d175773344b.png?passthrough=true);
+	--PortailMagiqueViolet-Off:	url(https://cdn.discordapp.com/avatar-decoration-presets/a_72d1fd7c47cc7a98c8f64d175773344b.png?passthrough=false);
+
+/* Poussière d'étoile */
+	--PoussièreDÉtoile-On:		url(https://cdn.discordapp.com/avatar-decoration-presets/a_a47890109a231f72dae7b17b27164676.png?passthrough=true);
+	--PoussièreDÉtoile-Off:		url(https://cdn.discordapp.com/avatar-decoration-presets/a_a47890109a231f72dae7b17b27164676.png?passthrough=false);
+
+/* Demander à Max */
+	--NAME-On:					url(https://cdn.discordapp.com/avatar-decoration-presets/a_d1e5d3aabccb3d38f21b5ac8a33fcf4d.png?passthrough=true);
+	--NAME-Off:					url(https://cdn.discordapp.com/avatar-decoration-presets/a_d1e5d3aabccb3d38f21b5ac8a33fcf4d.png?passthrough=false);
+
+/** CheckPoint 2025 **/
+	--Canard-On:				url(https://cdn.discordapp.com/avatar-decoration-presets/a_14a0f06f28d6de3dfd63d463223d814f.png?passthrough=true);
+	--Canard-Off:				url(https://cdn.discordapp.com/avatar-decoration-presets/a_14a0f06f28d6de3dfd63d463223d814f.png?passthrough=false);
+
+	--Banane-On:				url(https://cdn.discordapp.com/avatar-decoration-presets/a_c12a5c953352c20bd6e63576e2cce3a0.png?passthrough=true);
+	--Banane-Off:				url(https://cdn.discordapp.com/avatar-decoration-presets/a_c12a5c953352c20bd6e63576e2cce3a0.png?passthrough=false);
+
+	--Chat-On:					url(https://cdn.discordapp.com/avatar-decoration-presets/a_3c8525a96d0272550c2f95bc8b594da5.png?passthrough=true);
+	--Chat-Off:					url(https://cdn.discordapp.com/avatar-decoration-presets/a_3c8525a96d0272550c2f95bc8b594da5.png?passthrough=false);
+
+	--BouleÀFacettes-On:		url(https://cdn.discordapp.com/avatar-decoration-presets/a_9b11f84bb1750adb9229d528cce682c4.png?passthrough=true);
+	--BouleÀFacettes-Off:		url(https://cdn.discordapp.com/avatar-decoration-presets/a_9b11f84bb1750adb9229d528cce682c4.png?passthrough=false);
+
+	--Origami-On:				url(https://cdn.discordapp.com/avatar-decoration-presets/a_f507d774257b88d47b3531e8afa46259.png?passthrough=true);
+	--Origami-Off:				url(https://cdn.discordapp.com/avatar-decoration-presets/a_f507d774257b88d47b3531e8afa46259.png?passthrough=false);
+
+	--Escargot-On:				url(https://cdn.discordapp.com/avatar-decoration-presets/a_523d7733d1b88cfbad5b082d062defc4.png?passthrough=true);
+	--Escargot-Off:				url(https://cdn.discordapp.com/avatar-decoration-presets/a_523d7733d1b88cfbad5b082d062defc4.png?passthrough=false);
+
+	--Cassette-On:				url(https://cdn.discordapp.com/avatar-decoration-presets/a_23c2c404b0e73ac40e74e304d2471ed2.png?passthrough=true);
+	--Cassette-Off:				url(https://cdn.discordapp.com/avatar-decoration-presets/a_23c2c404b0e73ac40e74e304d2471ed2.png?passthrough=false);
+
+	--Donut-On:					url(https://cdn.discordapp.com/avatar-decoration-presets/a_82442053e3da77f379586817b2709365.png?passthrough=true);
+	--Donut-Off:				url(https://cdn.discordapp.com/avatar-decoration-presets/a_82442053e3da77f379586817b2709365.png?passthrough=false);
+
+	--Capybara-On:				url(https://cdn.discordapp.com/avatar-decoration-presets/a_8384f035d67eb209be18aaadf191f25e.png?passthrough=true);
+	--Capybara-Off:				url(https://cdn.discordapp.com/avatar-decoration-presets/a_8384f035d67eb209be18aaadf191f25e.png?passthrough=false);
+
+	--Plante-On:				url(https://cdn.discordapp.com/avatar-decoration-presets/a_0714c0941f1229da2b489de6b202efad.png?passthrough=true);
+	--Plante-Off:				url(https://cdn.discordapp.com/avatar-decoration-presets/a_0714c0941f1229da2b489de6b202efad.png?passthrough=false);
+/*********************/
+}

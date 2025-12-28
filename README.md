@@ -1,5 +1,7 @@
 # **Discord-Snippets (Visual-Refresh)**
+
 _Bibliothèque de morceaux de code CSS pour Discord._
+
 ---
 ## ***Liens d'importation :***
 * ### AnimatedSpinningLogo

@@ -1,18 +1,14 @@
 # Discord-Snippets (Visual-Refresh)
----
+
 ## Liens d'importation :
 
 ### AnimatedSpinningLogo
 ```CSS
 @import url(https://tiroflanc.github.io/Discord-Snippets/AnimatedSpinningLogo.css);
 ```
-### ColorizedStatusIndicator (v2)
+### ColorizedStatusIndicator
 ```CSS
 @import url(https://tiroflanc.github.io/Discord-Snippets/ColorizedStatusIndicator.css);
-```
-### DiscordQuestSpotlight
-```CSS
-@import url(https://tiroflanc.github.io/Discord-nippets/DiscordQuestSpotlight.css);
 ```
 ### InputBarButtons
 ```CSS
@@ -38,3 +34,4 @@
 ```CSS
 @import url(https://tiroflanc.github.io/Discord-Snippets/VisualVoiceIndicator.css);
 ```
+---

@@ -1,6 +1,9 @@
 # **Discord-Snippets (Visual-Refresh)**
+
 _Bibliothèque de morceaux de code CSS pour Discord._
+
 ---
+
 ## ***Liens d'importation :***
 
 * ### AnimatedSpinningLogo
@@ -35,7 +38,9 @@ _Bibliothèque de morceaux de code CSS pour Discord._
 ```CSS
 @import url(https://tiroflanc.github.io/Discord-Snippets/VisualVoiceIndicator.css);
 ```
+
 ---
+
 * ## AllInOne
 ```CSS
 @import url(https://tiroflanc.github.io/Discord-Snippets/AnimatedSpinningLogo.css);
@@ -47,4 +52,5 @@ _Bibliothèque de morceaux de code CSS pour Discord._
 @import url(https://tiroflanc.github.io/Discord-Snippets/UnreadMessagesShaker.css);
 @import url(https://tiroflanc.github.io/Discord-Snippets/VisualVoiceIndicator.css);
 ```
+
 ---

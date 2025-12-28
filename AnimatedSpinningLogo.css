@@ -1,0 +1,15 @@
+.visual-refresh {
+	._6e9f8dce4cc18de3-childWrapperNoHoverBg {
+		background:transparent;
+		border-radius:50%;
+
+		&:hover >svg {
+			animation:spin-rebound 2s cubic-bezier(.75,0,.25,1) .3s infinite
+		}
+	}
+}
+
+@keyframes	spin-rebound	{0%		{transform:rotate(0deg)}
+							15%		{transform:rotate(-60deg)}
+							50%		{transform:rotate(420deg)}
+							60%,100%{transform:rotate(360deg)}}

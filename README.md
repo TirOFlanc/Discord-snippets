@@ -1,4 +1,4 @@
-# **Discord-Snippets (Visual-Refresh)**
+# **Discord-Snippets (**Visual-Refresh**)**
 
 _Bibliothèque de morceaux de code CSS pour Discord._
 

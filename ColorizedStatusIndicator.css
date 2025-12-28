@@ -1,0 +1,158 @@
+:root {
+	--Groulor:	#5D64EF		/* var(--bg-brand) */
+}
+
+.visual-refresh {
+	#app-mount {
+
+	/*** Estompage des utilisateurs supprimés de la colonne des conversations privées ***/
+		._972a0d22c8afa7f0-dm:has([aria-label*="deleted_user"]):not(:has([class*="selected"]),:hover) {opacity:.25}
+
+	/** Suppression du statut en texte sous les pseudo de la liste des amis **/
+		._19b6da809e654e70-text {display:none}
+
+	/*** Ajustement de la barre de défilement de la colonne des membres ***/
+		.c8ffbb79449f399c-members::-webkit-scrollbar {width:6px}
+
+	/*** Suppression de l'indicateur de statut par défaut ***/
+		._44b0c28be7879b7b-wrapper,
+		._1ce5d425feffd32a-container {
+			rect,circle,>div,
+			.a423bdd721ddcc83-status {display:none}
+
+			[mask] {mask:none}
+
+			._44b0c28be7879b7b-mask ._44b0c28be7879b7b-avatar,
+			& :is([src*="avatars"],[src*="assets"]) {
+				border-radius:50%
+			}
+		}
+
+	/*** Remplacement de l'indicateur de frappe ***/
+		[class*="layout"]:has(._5ad890d06f24286d-dots) {
+			& :is([src*="avatars"],[src*="channel-icon"],[src*="assets"],[class*="emoji"],._10651c5cfe637db6-badge,path) {
+				will-change:transform;
+				transform-origin:50% 50%;
+				animation:rotate 1.25s infinite linear
+			}
+
+			& [class*="content"] {
+				will-change:transform;
+				transform-origin:0% 50%;
+				animation:rubber 1.25s infinite linear
+			}
+		}
+
+	/*** Colorisation des groupes et du bot système ***/
+		.a3002d7de5be5280-notAppAsidePanel {
+			._972a0d22c8afa7f0-dm:has(._972a0d22c8afa7f0-subtext) ._20a53846fe2e8513-name>div,	/* Colonne des conversations (groupes et bot système) */
+			._9293f6b2fc12398a-children:not(:has(rect,[class*="tab"]))							/* En-tête des conversations */
+			:is(span>div>div:nth-child(2),div>h1>span:first-child),								/* ... Groupe / Bot système */
+			[class*="user-profile"]>div:has([aria-label="discord"])								/* Aperçu de profil et profil complet (bot système) */
+			:is(._63ed30c16c7151f2-nickname,._05e81ad8c06c1066-username)						/* ... Nom / Description */
+			{color:var(--Groulor)!important}
+			
+			._972a0d22c8afa7f0-dm:has(._972a0d22c8afa7f0-subtext) 
+			{
+				&:has(.a423bdd721ddcc83-status,rect[fill="#43a25a"],rect[mask*="online"],[mask*="typing"])
+				{
+					:is(._44b0c28be7879b7b-wrapper,._1ce5d425feffd32a-container)::before {
+						top:-5%;
+						left:-5%;
+						height:110%;
+						width:110%;
+						content: "";
+						position:absolute;
+						border-radius:50%;
+						filter:blur(2.25px);
+						background:radial-gradient(circle,var(--Groulor))
+					}
+				}
+			}
+		}
+
+	/*** Remplacement de l'indicateur de statut ***/
+			/* Cas particulier */
+		/** Récupération du statut **/
+		.user-profile-sidebar>div>div:not(:has([aria-label="discord"]))							/* Colonne d'aperçu de profil de conversation privée : "_63ed30c16c7151f2-usernameRow" et "_63ed30c16c7151f2-userTag" */
+		{
+			&:has(._7f9c030b25536e94-header rect:is([fill="#43a25a"],[mask*="online"])) {--Status:#43a25a}
+			&:has(._7f9c030b25536e94-header rect:is([fill="#ca9654"],[mask*="idle"])) {--Status:#ca9654}				/* Problème lorsque l'on déplie les amis en commun */
+			&:has(._7f9c030b25536e94-header rect:is([fill="#d83a42"],[mask*="dnd"])) {--Status:#d83a42}			/* Le parent du statut et du pseudo a aussi pour fils les amis en commun */
+			&:has(._7f9c030b25536e94-header rect:is([fill="#82838b"],[mask*="offline"])) {--Status:#82838b}
+			&:has(._7f9c030b25536e94-header rect:is([fill="#9147ff"],[mask*="streaming"])) {--Status:#9147ff}
+
+			/** Coloration selon le statut **/
+			._63ed30c16c7151f2-usernameRow ._4bd5201c86a2042b-defaultColor,._63ed30c16c7151f2-userTag>span
+			{
+				color:var(--Status,transparent);
+				transition:color 1.5s
+			}
+		}
+
+			/* Les autres */
+		/** Récupération du statut **/
+		._972a0d22c8afa7f0-dm>div:not(:has(._972a0d22c8afa7f0-subtext)),						/* Colonne des conversations (groupes et bot système exclus) : "_20a53846fe2e8513-name" et "c9d15c8a962de3c8-truncated" */
+		._0a06ed6ea040aa1b-userInfo:has(rect),													/* Liste des amis : "f4bc976213b83e68-info" et "c9d15c8a962de3c8-truncated" */
+		._00943886e1cf89d1-header,																/* Colonne des activités des amis : "_00943886e1cf89d1-textContent" */
+		._5017b12e7aa6c216-memberItem:has(rect),												/* Détails d'activité d'amis (soi-même exclu) : "f4bc976213b83e68-info" */
+		._9293f6b2fc12398a-children:has(rect[fill]),											/* En-tête des conversations : "_9293f6b2fc12398a-title et _488b1a4248d1b790-nicknames" */
+		.user-profile-popout>div:not(:has([aria-label="discord"])),								/* Aperçu de profil et Nitro : "_63ed30c16c7151f2-usernameRow", "f4bc976213b83e68-info" et "_63ed30c16c7151f2-userTag" */
+		._89036700569ec527-row,																	/* Liste d'amis en commun : "f4bc976213b83e68-info" et "c9d15c8a962de3c8-truncated" */
+		._9c3bea41fd465666-profile,.user-profile-modal>div,										/* Profil complet (membres, bots) : "_63ed30c16c7151f2-usernameRow", "f4bc976213b83e68-info" et "_63ed30c16c7151f2-userTag" */
+		._1fed1dd06c7aabf7-userInfo,															/* Paramètres utilisateur - Mon compte : "f4bc976213b83e68-info" */
+		._37e49614b9f110a9-avatarWrapper,														/* Zone utilisateur : "b6c092614b8d59f3-title", "_0263c8321829b3e8-hovered" et "c9d15c8a962de3c8-truncated" */
+
+		._5d473ecff348c314-member:has(rect)														/* Colonne des membres de groupe et de serveur : "_91a9d7f7e5248a56-childContainer", "_44b0c28be7879b7b-wrapper" et "c9d15c8a962de3c8-truncated" */
+		{
+			&:has(rect[fill="#43a25a"],rect[mask*="online"]) {--Status:#43a25a}
+			&:has(rect[fill="#ca9654"],rect[mask*="idle"]) {--Status:#ca9654}
+			&:has(rect[fill="#d83a42"],rect[mask*="dnd"]) {--Status:#d83a42}
+			&:has(rect[fill="#82838b"],rect[mask*="offline"]) {--Status:#82838b}
+			&:has(rect[fill="#9147ff"],rect[mask*="streaming"]) {--Status:#9147ff}
+
+			/** Coloration selon le statut **/
+			._20a53846fe2e8513-name,.c9d15c8a962de3c8-truncated:not(.c9d15c8a962de3c8-dot),
+			.f4bc976213b83e68-info>span:first-child,
+			._00943886e1cf89d1-textContent:first-child>:first-child,
+			._00943886e1cf89d1-textContent:first-child:not(:has(*)),
+			._9293f6b2fc12398a-title>span,._488b1a4248d1b790-nicknames>span>span,
+			._63ed30c16c7151f2-usernameRow ._4bd5201c86a2042b-defaultColor,._63ed30c16c7151f2-userTag>span,
+			.b6c092614b8d59f3-title,._0263c8321829b3e8-hovered
+			{
+				color:var(--Status,transparent);
+				transition:color 1.5s
+			}
+
+			/** Ajout d'un liseré à gauche et à droite des membres selon leur statut **/
+			._91a9d7f7e5248a56-childContainer
+			{
+				box-shadow:-2px 0 0 0 var(--Status,transparent),2px 0 0 0 var(--Status,transparent);
+				transition:box-shadow 1.5s
+			}
+
+			/** Ajout d'une aura autour de l'avatar **/
+			:is(._972a0d22c8afa7f0-channel,														/* Colonne des conversations */
+			._37e49614b9f110a9-container,														/* Zone utilisateur */
+			.c8ffbb79449f399c-members) &														/* Colonne des membres de groupe et de serveur */
+			{
+				._44b0c28be7879b7b-wrapper
+				{
+					box-shadow:0 0 5px 2px var(--Status,transparent);
+					transition:box-shadow 1.5s
+				}
+			}
+		}
+	}
+}
+
+@keyframes	rotate	{0%	{transform:rotate3d(0,0,1,0)}
+					100%{transform:rotate3d(0,0,1,360deg)}}
+
+@keyframes	rubber	{0%	{transform:scale3d(1,1,1)}
+					30%	{transform:scale3d(1.25,0.75,1)}
+					40%	{transform:scale3d(0.75,1.25,1)}
+					50%	{transform:scale3d(1.15,0.85,1)}
+					65%	{transform:scale3d(.95,1.05,1)}
+					75%	{transform:scale3d(1.05,.95,1)}
+					100%{transform:scale3d(1,1,1)}}

@@ -2,8 +2,9 @@
 
 _Bibliothèque de morceaux de code CSS pour Discord._
 
-## ***Liens d'importation :***
 ---
+
+## ***Liens d'importation :***
 
 * ### AnimatedSpinningLogo
 ```CSS

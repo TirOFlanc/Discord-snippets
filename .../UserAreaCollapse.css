@@ -1,0 +1,35 @@
+:root {
+	--UserAreaTrans:												transform .15s ease-in-out .15s, opacity .15s ease-in-out .15s;
+	--ProfileTrans:													transform .3s ease-in-out, max-width .3s ease-in-out
+}
+
+/* Gère le gap en bas des salons */
+							.container__2637a						{padding-bottom:62px!important}
+
+/* Gère l'affichage de la zone utilisateur */
+							.panels_c48ade							{height:58px;display:flex;justify-content:flex-end!important;flex-direction:column}
+							.panels_c48ade:hover					{height:auto;display:block;justify-content:initial;flex-direction:row}
+
+/* Rétracte les panneaux d'activité et d'appel */
+							.activityPanel_c48ade,.wrapper_e131a9	{transform:translateY(var(--TranslateY)) scale(0,1);transform-origin:center top;opacity:0;transition:var(--UserAreaTrans)}
+							.activityPanel_c48ade					{--TranslateY:200%}
+							.wrapper_e131a9							{--TranslateY:100%}
+
+/* Réaffiche tout au survole de la zone de profil utilisateur */
+.panels_c48ade:hover		>*:not(:last-child)						{transform:translateY(0%) scale(1,1);opacity:1;transition:var(--UserAreaTrans)}
+
+/* Rétracte les boutons de la barre d'appel */
+							.channel_e131a9 .lineClamp1__4bd52		{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;white-space:normal}
+							.container_e131a9						{overflow:hidden}
+							.inner_e131a9							{min-width:calc(var(--custom-guild-sidebar-width) - 30px);transition:min-width .3s ease-in-out .15s}
+.connection_e131a9:hover	.inner_e131a9							{min-width:0}
+
+/* Rétracte les boutons de la barre de profil utilisateur */
+							.container__37e49:not(:hover)			{gap:0}
+							.buttons__37e49							{max-width:0;overflow:hidden;transition:var(--ProfileTrans)}
+.container__37e49:hover		.buttons__37e49 						{max-width:105px}
+							.buttons__37e49>*						{transition:var(--ProfileTrans)!important}
+							.micButtonParent__37e49					{transform:translateX(104px)}
+							.buttons__37e49>button:first-of-type	{transform:translateX(68px)}
+							.buttons__37e49>button:last-of-type		{transform:translateX(32px)}
+.container__37e49:hover		.buttons__37e49>*						{transform:translateX(0px)}

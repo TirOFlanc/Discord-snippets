@@ -1,0 +1,42 @@
+.visual-refresh {
+	._5e434347c823b592-sidebar {
+		[class*="Speaking"],
+		[style*="speaking"] {box-shadow:unset!important}
+
+		._07f9193042954787-content,
+		._37e49614b9f110a9-avatarWrapper {
+			transition:box-shadow .15s;
+
+			&:has([class*="Speaking"],[style*="speaking"]) {
+				box-shadow:inset 0 0 2px 1px var(--status-speaking);
+
+				._394db220ddf598fe-container {
+					._394db220ddf598fe-usernameContainer {overflow:visible}
+
+					&>div>* {
+						will-change:transform;
+						transition:color .15s;
+						color:var(--status-speaking);
+						animation:wave .25s infinite
+					}
+				}
+			}
+
+			&:has([d*="2v-2.06A8 8 0 0"]) ._07f9193042954787-username {
+				transition:color .15s;
+				color:var(--status-danger)
+			}
+
+			&:has([d*="2v-2.06A8 8 0 0"],._07f9193042954787-iconServer),
+			._37e49614b9f110a9-container:has(._37e49614b9f110a9-hasColorGlow) & {
+				box-shadow:inset 0 0 2px 1px var(--status-danger)
+			}
+		}
+	}
+}
+
+@keyframes	wave	{0%	{transform:translate3d(0,3px,0) rotate3d(0,0,1,2deg)}
+					25%	{transform:translate3d(0,-2px,0) rotate3d(0,0,1,2deg)}
+					50%	{transform:translate3d(0,-2px,0) rotate3d(0,0,1,-2deg)}
+					75%	{transform:translate3d(0,3px,0) rotate3d(0,0,1,-2deg)}
+					100%{transform:translate3d(0,3px,0) rotate3d(0,0,1,2deg)}}

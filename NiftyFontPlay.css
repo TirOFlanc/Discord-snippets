@@ -1,0 +1,12 @@
+@import url(https://fonts.googleapis.com/css2?family=Play&display=swap);
+
+:root {
+	--font-primary:Play!important;
+	--font-display:Play!important;
+	--font-headline:Play!important;
+	--font-code:Play!important;
+	--font-clan-body:Play!important;
+	--font-clan-signature:Play!important;
+	--font-display-marketing:Play!important;
+	--font-display-marketing-header:Play!important
+}

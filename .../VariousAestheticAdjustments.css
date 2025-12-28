@@ -1,0 +1,61 @@
+/*** SUPRESSION D'ÉLÉMENTS ***/
+	/** PAGE "AMIS" **/
+/* Supprime le bouton d'aide Discord */
+						.trailing_c38106 .anchor_edefb8,
+/* Supprime le bouton "Rechercher/lancer une conversation" */
+						.searchBar__35e86,
+/* Supprime les boutons "Nitro" et "Boutique" */
+						:not(.friendsButtonContainer__35e86)>.channel__972a0.container_e45859:not(.dm__972a0),
+/* Supprime le bouton "Créer un MP" */
+						.privateChannelsHeaderContainer__99e7c button,
+
+	/** COLONNE DES SALONS **/
+/* Supprime l'icon communautaire dans l'en-tête du serveur */
+						.guildIconV2Container__85d16,
+/* Supprime la barre de progression "Objectif de Boost" */
+						.container__0d0f9,
+/* Supprime le bouton "Boosts de serveur" */
+						.container__877f0,
+/* Supprime les boutons "Créer une invitation" dans la liste des salons */
+						[aria-label="Créer une invitation"],
+
+	/** ZONE UTILISATEUR **/
+/* Supprime le "+1 activité" dans la zone utilisateur */
+						.activityCounter_c9d15c,
+
+	/** MESSAGERIE **/
+/* Supprime le message "XXX compatible avec les invitations de jeu. Fermer" au dessus de la barre de messagerie */
+						.activityInviteEducation_b88801															{display:none!important}
+
+/******************************************************************************************************************************************************/
+/*** AUTRES ***/
+	/** GLOBAL **/
+/* Permet de déplacer la fenêtre Discord au lieu de cliquer dans la description de salon */
+/*###########################################################*/
+
+	/** COLONNE DES SERVEURS **/
+/* Modifie la couleur et la forme de l'arrière plan des boutons "Ajoute un serveur" et "Découvrir" */
+						.circleIconButton__5bc7e																{border-radius:50%;transition:all .1s ease-out;
+						&.selected__5bc7e																		{background:var(--bg-brand)!important}}
+
+	/** COLONNE DES SALONS **/
+/* Cache le message de mise en place de l'authentification multi-facteur pour les modérateurs, n'affichant que le svg "Clé" */
+						.imageContainer__4c43d																	{margin:0 40%!important}
+						.message__4c43d																			{display:none}
+.container__6e9be:hover	.message__4c43d																			{display:block}
+/* Modifie la taille des icons de salons */
+						.iconContainer__2ea32																	{zoom:.75}
+/* Modifie l'espace avant "Définir un statut de salon" sous les salons vocaux */
+						.linkBottom__2ea32																		{margin-left:10px}
+/* Modifie l'espace avant les membres connectés en vocal */
+						.list__07f91																			{padding-left:20px}
+/* Permet de ne pas avoir un espace en bas des salons lorsque l'on supprime des boutons en haut (effect aussi la liste des membres : même classe) */
+						.content__99f8c																			{height:unset!important}
+
+	/** MESSAGERIE **/
+/* Estompe le message "••• XXX est en train d'écrire..." au dessus de la barre de messagerie */
+						.typing_b88801																			{opacity:30%}
+
+	/** PAGE "QUÊTES" **/
+/* Baisse le bouton du montant des Orbs */
+						.container__44ee9																		{position:fixed;top:56.5px;right:16px}

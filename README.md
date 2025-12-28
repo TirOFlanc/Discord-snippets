@@ -1,5 +1,5 @@
 # Discord-Snippets (Visual-Refresh)
-
+---
 ## Liens d'importation :
 
 ### AnimatedSpinningLogo

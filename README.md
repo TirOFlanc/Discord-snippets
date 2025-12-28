@@ -3,7 +3,6 @@
 _Bibliothèque de morceaux de code CSS pour Discord._
 
 ## ***Liens d'importation :***
-
 ---
 
 * ### AnimatedSpinningLogo

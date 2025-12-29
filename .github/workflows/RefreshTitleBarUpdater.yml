@@ -1,0 +1,95 @@
+name: RefreshTitleBarUpdater
+
+on:
+  schedule:
+    # S'exécute tous les jours à 6h du matin
+    - cron: '0 6 * * *'
+  # Permet aussi de lancer le workflow manuellement depuis l'onglet Actions
+  workflow_dispatch:
+
+jobs:
+  sync-and-push:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Donne la permission de pousser des commits
+
+    steps:
+      # 1. Récupérer votre dépôt
+      - name: Checkout du dépôt
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # 2. Télécharger le fichier CSS depuis la source
+      - name: Télécharger le fichier CSS source
+        run: |
+          curl -s -o /tmp/desktop.css \
+            "https://raw.githubusercontent.com/G0d0fninjas/visual-refresh-compact-title-bar/refs/heads/main/desktop.css"
+          echo "Fichier téléchargé. Ligne avant modification :"
+          grep -n "vr-header-snippet-button-padding: 0;" /tmp/desktop.css || true
+
+      # 3. Appliquer votre modification
+      - name: Appliquer la modification personnelle
+        run: |
+          # Cette commande remplace exactement "0;" par "8px;" pour la propriété spécifique
+          sed -i 's|vr-header-snippet-button-padding: 0;|vr-header-snippet-button-padding: 8px;|' /tmp/desktop.css
+          
+          # Vérification que la modification a fonctionné
+          echo "Ligne après modification :"
+          grep -n "vr-header-snippet-button-padding: 8px;" /tmp/desktop.css || echo "La ligne modifiée n'a pas été trouvée."
+          
+          # Vérification de sécurité : on s'assure que l'ancienne valeur '0' n'est plus présente pour cette propriété
+          if grep -n "vr-header-snippet-button-padding: 0;" /tmp/desktop.css; then
+            echo "⚠️ ATTENTION : L'ancien motif 'vr-header-snippet-button-padding: 0;' est toujours présent. La modification n'a peut-être pas fonctionné."
+            # Ne pas forcément échouer, mais prévenir dans les logs
+          else
+            echo "✅ Succès : L'ancienne valeur '0' a bien été remplacée par '8px'."
+          fi
+
+      # 4. Vérifier les changements avant de copier
+      - name: Détecter les changements
+        id: detect-change
+        run: |
+          # Initialisation
+          echo "has_changes=false" >> $GITHUB_OUTPUT
+          
+          # Cas 1 : Le fichier n'existe pas du tout dans le dépôt -> changement
+          if [ ! -f "RefreshTitleBar.css" ]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "🆕 Fichier à créer (il n'existe pas encore)."
+          else
+            # Cas 2 : Le fichier existe, on compare son contenu avec la nouvelle version
+            if ! diff -q "RefreshTitleBar.css" /tmp/desktop.css > /dev/null; then
+              echo "has_changes=true" >> $GITHUB_OUTPUT
+              echo "🔄 Changements détectés dans le fichier existant !"
+              diff -u "RefreshTitleBar.css" /tmp/desktop.css | head -10
+            else
+              echo "✅ Aucun changement nécessaire."
+            fi
+          fi
+
+      # 5. Copier le fichier modifié seulement si changement détecté
+      - name: Copier le fichier
+        if: steps.detect-change.outputs.has_changes == 'true'
+        run: |
+          cp /tmp/desktop.css RefreshTitleBar.css
+          echo "✅ Fichier 'RefreshTitleBar.css' créé/mis à jour."
+
+      # 6. Committer et pousser seulement si changement
+      - name: Committer et pousser
+        if: steps.detect-change.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add RefreshTitleBar.css
+          git commit -m "🔄 CSS auto-sync: Màj depuis la source + padding 0→8px
+          
+          Synchronisation automatique depuis :
+          https://github.com/G0d0fninjas/visual-refresh-compact-title-bar
+          
+          Modification appliquée :
+          - --vr-header-snippet-button-padding: 0; → 8px;
+          
+          Date: $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+          git push origin main
+          echo "✅ Changements poussés sur 'main'."

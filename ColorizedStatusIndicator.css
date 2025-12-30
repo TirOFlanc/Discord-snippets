@@ -8,7 +8,7 @@
 	/*** Estompage des utilisateurs supprimés de la colonne des conversations privées ***/
 		._972a0d22c8afa7f0-dm:has([aria-label*="deleted_user"]):not(:has([class*="selected"]),:hover) {opacity:.25}
 
-	/** Suppression du statut en texte sous les pseudo de la liste des amis **/
+	/** Suppression du statut en texte sous les pseudos de la liste des amis **/
 		._19b6da809e654e70-text {display:none}
 
 	/*** Ajustement de la barre de défilement de la colonne des membres ***/
@@ -17,7 +17,7 @@
 	/*** Suppression de l'indicateur de statut par défaut ***/
 		._44b0c28be7879b7b-wrapper,
 		._1ce5d425feffd32a-container {
-			rect,circle,>div,
+			rect,circle,&>div,
 			.a423bdd721ddcc83-status {display:none}
 
 			[mask] {mask:none}

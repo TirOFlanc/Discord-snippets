@@ -6,7 +6,7 @@
 
 .visual-refresh {
 	._740174f3d6a2c8fe-scrollableContainer {
-		::-webkit-scrollbar {display:none}
+		&::-webkit-scrollbar {display:none}
 
     ._740174f3d6a2c8fe-sansAttachButton {
 			padding:0 12px 0 16px;

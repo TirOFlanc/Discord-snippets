@@ -6,26 +6,27 @@
 
 .visual-refresh {
 	._740174f3d6a2c8fe-scrollableContainer {
-		&::-webkit-scrollbar {display:none}
+		::-webkit-scrollbar {display:none}
 
     ._740174f3d6a2c8fe-sansAttachButton {
 			padding:0 12px 0 16px;
 			
 			._0923f156a0410684-attachWrapper {
-				top:0;height:0
+				top:0;
+				height:0
 			}
 
 			._740174f3d6a2c8fe-buttons {
-				>:not(:has(._740174f3d6a2c8fe-emojiButton)) {
-					display:none
-				}
+				&>:not(:has(._740174f3d6a2c8fe-emojiButton)) {display:none}
 
 				._740174f3d6a2c8fe-emojiButton {
-					opacity:var(--EmojiOpacity);scale:1;
 					transition:all var(--EmojiTransition) ease-in-out;
+					opacity:var(--EmojiOpacity);
+					scale:1;
 
 					&:hover {
-						opacity:1;scale:var(--EmojiScale)
+						opacity:1;
+						scale:var(--EmojiScale)
 					}
 				}
 			}

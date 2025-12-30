@@ -31,7 +31,7 @@ _Bibliothèque de morceaux de code CSS pour Discord._
 @import url(https://tiroflanc.github.io/Discord-Snippets/NiftyFontPlay.css);
 ```
 
-* ### RefreshTitleBar (Credits to [Chloe Cinders](https://github.com/chloecinders) : [Repo⇗](https://github.com/chloecinders/visual-refresh-compact-title-bar))
+* ### RefreshTitleBar (Credits to [Chloe Cinders](https://github.com/chloecinders) : [Repo⇗](https://github.com/chloecinders/visual-refresh-compact-title-bar), maintained by [G0d0fninjas](https://github.com/G0d0fninjas) : [Repo⇗](https://github.com/G0d0fninjas/visual-refresh-compact-title-bar))
 ```CSS
 @import url(https://tiroflanc.github.io/Discord-Snippets/RefreshTitleBar.css);
 ```

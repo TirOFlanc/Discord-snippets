@@ -54,7 +54,7 @@
 			
 			._972a0d22c8afa7f0-dm:has(._972a0d22c8afa7f0-subtext) 
 			{
-				&:has(.a423bdd721ddcc83-status,rect[fill="#43a25a"],rect[mask*="online"],[mask*="typing"])
+				&:has(.a423bdd721ddcc83-status,rect:is([fill="#43a25a"],[fill="#45a366"],[mask*="online"]),[mask*="typing"])
 				{
 					:is(._44b0c28be7879b7b-wrapper,._1ce5d425feffd32a-container)::before {
 						top:-5%;

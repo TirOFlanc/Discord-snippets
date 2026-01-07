@@ -77,10 +77,10 @@
 		.user-profile-sidebar>div>div:not(:has([aria-label="discord"]))							/* Colonne d'aperçu de profil de conversation privée : "_63ed30c16c7151f2-usernameRow" et "_63ed30c16c7151f2-userTag" */
 		{
 			&:has(._7f9c030b25536e94-header rect:is([fill="#43a25a"],[fill="#45a366"],[mask*="online"])) {--Status:#43a25a}
-			&:has(._7f9c030b25536e94-header rect:is([fill="#ca9654"],[mask*="idle"])) {--Status:#ca9654}				/* Problème lorsque l'on déplie les amis en commun */
-			&:has(._7f9c030b25536e94-header rect:is([fill="#d83a42"],[mask*="dnd"])) {--Status:#d83a42}			/* Le parent du statut et du pseudo a aussi pour fils les amis en commun */
-			&:has(._7f9c030b25536e94-header rect:is([fill="#82838b"],[mask*="offline"])) {--Status:#82838b}
-			&:has(._7f9c030b25536e94-header rect:is([fill="#9147ff"],[mask*="streaming"])) {--Status:#9147ff}
+			&:has(._7f9c030b25536e94-header rect:is([fill="#ca9654"],[fill="#ffc04e"],[mask*="idle"])) {--Status:#ca9654}				/* Problème lorsque l'on déplie les amis en commun */
+			&:has(._7f9c030b25536e94-header rect:is([fill="#d83a42"],[fill="#da3e44"],[mask*="dnd"])) {--Status:#d83a42}			/* Le parent du statut et du pseudo a aussi pour fils les amis en commun */
+			&:has(._7f9c030b25536e94-header rect:is([fill="#82838b"],[fill="#84858d"],[mask*="offline"])) {--Status:#82838b}
+			&:has(._7f9c030b25536e94-header rect:is([fill="#9147ff"],[fill=""],[mask*="streaming"])) {--Status:#9147ff}
 
 			/** Coloration selon le statut **/
 			._63ed30c16c7151f2-usernameRow ._4bd5201c86a2042b-defaultColor,._63ed30c16c7151f2-userTag>span
@@ -105,11 +105,11 @@
 
 		._5d473ecff348c314-member:has(rect)														/* Colonne des membres de groupe et de serveur : "_91a9d7f7e5248a56-childContainer", "_44b0c28be7879b7b-wrapper" et "c9d15c8a962de3c8-truncated" */
 		{
-			&:has(rect[fill="#43a25a"],[fill="#45a366"],rect[mask*="online"]) {--Status:#43a25a}
-			&:has(rect[fill="#ca9654"],rect[mask*="idle"]) {--Status:#ca9654}
-			&:has(rect[fill="#d83a42"],rect[mask*="dnd"]) {--Status:#d83a42}
-			&:has(rect[fill="#82838b"],rect[mask*="offline"]) {--Status:#82838b}
-			&:has(rect[fill="#9147ff"],rect[mask*="streaming"]) {--Status:#9147ff}
+			&:has(rect:is([fill="#43a25a"],[fill="#45a366"],[mask*="online"])) {--Status:#43a25a}
+			&:has(rect:is([fill="#ca9654"],[fill="#ffc04e"],[mask*="idle"])) {--Status:#ca9654}
+			&:has(rect:is([fill="#d83a42"],[fill="#da3e44"],[mask*="dnd"])) {--Status:#d83a42}
+			&:has(rect:is([fill="#82838b"],[fill="#84858d"],[mask*="offline"])) {--Status:#82838b}
+			&:has(rect:is([fill="#9147ff"],[fill=""],[mask*="streaming"])) {--Status:#9147ff}
 
 			/** Coloration selon le statut **/
 			._20a53846fe2e8513-name,.c9d15c8a962de3c8-truncated:not(.c9d15c8a962de3c8-dot),

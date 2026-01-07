@@ -76,7 +76,7 @@
 		/** Récupération du statut **/
 		.user-profile-sidebar>div>div:not(:has([aria-label="discord"]))							/* Colonne d'aperçu de profil de conversation privée : "_63ed30c16c7151f2-usernameRow" et "_63ed30c16c7151f2-userTag" */
 		{
-			&:has(._7f9c030b25536e94-header rect:is([fill="#43a25a"],[mask*="online"])) {--Status:#43a25a}
+			&:has(._7f9c030b25536e94-header rect:is([fill="#43a25a"],[fill="#45a366"],[mask*="online"])) {--Status:#43a25a}
 			&:has(._7f9c030b25536e94-header rect:is([fill="#ca9654"],[mask*="idle"])) {--Status:#ca9654}				/* Problème lorsque l'on déplie les amis en commun */
 			&:has(._7f9c030b25536e94-header rect:is([fill="#d83a42"],[mask*="dnd"])) {--Status:#d83a42}			/* Le parent du statut et du pseudo a aussi pour fils les amis en commun */
 			&:has(._7f9c030b25536e94-header rect:is([fill="#82838b"],[mask*="offline"])) {--Status:#82838b}
@@ -105,7 +105,7 @@
 
 		._5d473ecff348c314-member:has(rect)														/* Colonne des membres de groupe et de serveur : "_91a9d7f7e5248a56-childContainer", "_44b0c28be7879b7b-wrapper" et "c9d15c8a962de3c8-truncated" */
 		{
-			&:has(rect[fill="#43a25a"],rect[mask*="online"]) {--Status:#43a25a}
+			&:has(rect[fill="#43a25a"],[fill="#45a366"],rect[mask*="online"]) {--Status:#43a25a}
 			&:has(rect[fill="#ca9654"],rect[mask*="idle"]) {--Status:#ca9654}
 			&:has(rect[fill="#d83a42"],rect[mask*="dnd"]) {--Status:#d83a42}
 			&:has(rect[fill="#82838b"],rect[mask*="offline"]) {--Status:#82838b}

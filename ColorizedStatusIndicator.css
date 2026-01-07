@@ -54,7 +54,7 @@
 			
 			._972a0d22c8afa7f0-dm:has(._972a0d22c8afa7f0-subtext) 
 			{
-				&:has(.a423bdd721ddcc83-status,[mask*="typing"],rect)									/* Groupe avec deux avatars : ".a423bdd721ddcc83-status,[mask*="typing"]" / groupe avec image personnalisée : "rect" */
+				&:has(.a423bdd721ddcc83-status,[mask*="typing"],rect)							/* Groupe avec deux avatars : ".a423bdd721ddcc83-status,[mask*="typing"]" / groupe avec image personnalisée : "rect" */
 				{
 					:is(._44b0c28be7879b7b-wrapper,._1ce5d425feffd32a-container)::before {
 						top:-5%;

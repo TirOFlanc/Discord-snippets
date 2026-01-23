@@ -41,6 +41,11 @@ _Bibliothèque de morceaux de code CSS pour Discord._
 @import url(https://tiroflanc.github.io/Discord-Snippets/SideBarCollapse.css);
 ```
 
+* ### UnobtrusiveTooltipInteraction
+```CSS
+@import url(https://tiroflanc.github.io/Discord-Snippets/UnobtrusiveTooltipInteraction.css);
+```
+
 * ### UnreadMessagesShaker (Inspired by [Saltssaumure](https://github.com/Saltssaumure) : [Repo⇗](https://github.com/MiniDiscordThemes/Snippets/tree/main/themes/UnreadShake))
 ```CSS
 @import url(https://tiroflanc.github.io/Discord-Snippets/UnreadMessagesShaker.css);
@@ -62,6 +67,7 @@ _Bibliothèque de morceaux de code CSS pour Discord._
 @import url(https://tiroflanc.github.io/Discord-Snippets/NiftyFontPlay.css);
 @import url(https://tiroflanc.github.io/Discord-Snippets/RefreshTitleBar.css);
 @import url(https://tiroflanc.github.io/Discord-Snippets/SideBarCollapse.css);
+@import url(https://tiroflanc.github.io/Discord-Snippets/UnobtrusiveTooltipInteraction.css);
 @import url(https://tiroflanc.github.io/Discord-Snippets/UnreadMessagesShaker.css);
 @import url(https://tiroflanc.github.io/Discord-Snippets/VisualVoiceIndicator.css);
 ```

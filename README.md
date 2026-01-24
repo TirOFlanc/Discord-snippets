@@ -1,3 +1,5 @@
+[![RefreshTitleBarUpdater](https://github.com/TirOFlanc/Discord-Snippets/actions/workflows/RefreshTitleBarUpdater.yml/badge.svg?event=workflow_dispatch)](https://github.com/TirOFlanc/Discord-Snippets/actions/workflows/RefreshTitleBarUpdater.yml) [![UpdateDiscordClassNames](https://github.com/TirOFlanc/Discord-Snippets/actions/workflows/UpdateDiscordClassNames.yml/badge.svg?event=workflow_dispatch)](https://github.com/TirOFlanc/Discord-Snippets/actions/workflows/UpdateDiscordClassNames.yml)
+
 # **Discord-Snippets (Visual-Refresh)**
 
 _Bibliothèque de morceaux de code CSS pour Discord._

@@ -2,10 +2,8 @@ name: RefreshTitleBarUpdater
 
 on:
   schedule:
-    # S'exécute tous les jours à 6h du matin
-    - cron: '0 6 * * *'
-  # Permet aussi de lancer le workflow manuellement depuis l'onglet Actions
-  workflow_dispatch:
+    - cron: '0 6 * * *'                 # S'exécute tous les jours à 6h du matin
+  workflow_dispatch:                      # Permet de lancer le workflow manuellement depuis l'onglet Actions
 
 jobs:
   sync-and-push:

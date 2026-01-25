@@ -1,0 +1,37 @@
+name: UpdateDiscordClassNames
+
+on:
+#   schedule:
+#     - cron: '0 6 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Vérification de mise à jour des noms de classe Discord
+        uses: fedeericodl/discord-update-classnames@main
+        with:
+          files: "*.css"
+          ignores: "BetterCssEditor.css,NiftyFontPlay.css,RefreshTitleBar.css"
+          ignore-class-names: |
+            visual-refresh
+            BetterDiscord
+            Powercord
+            Replugged
+            Aliucord
+            Vencord
+            bd-
+            rp-
+            ac-
+            vc-
+#           report-outdated: true
+          target-branch: "updates"
+          commit-message: "🔄 Mise à jour des classes Discord"
+          pr-title: "🔄 Mise à jour des classes Discord à vérifier"

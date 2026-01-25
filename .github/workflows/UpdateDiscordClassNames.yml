@@ -22,8 +22,8 @@ jobs:
           ignores: "BetterCssEditor.css,NiftyFontPlay.css,RefreshTitleBar.css"
           ignore-class-names: |
             visual-refresh
-            app-mount
             user-profile-sidebar
+            user-profile-popout
             user-profile-modal
             BetterDiscord
             Powercord

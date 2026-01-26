@@ -1,4 +1,5 @@
-[![RefreshTitleBarUpdater](https://github.com/TirOFlanc/Discord-Snippets/actions/workflows/RefreshTitleBarUpdater.yml/badge.svg)](https://github.com/TirOFlanc/Discord-Snippets/actions/workflows/RefreshTitleBarUpdater.yml) [![UpdateDiscordClassNames](https://github.com/TirOFlanc/Discord-Snippets/actions/workflows/UpdateDiscordClassNames.yml/badge.svg)](https://github.com/TirOFlanc/Discord-Snippets/actions/workflows/UpdateDiscordClassNames.yml)
+[![RefreshTitleBarUpdater](https://github.com/TirOFlanc/Discord-Snippets/actions/workflows/RefreshTitleBarUpdater.yml/badge.svg)](https://github.com/TirOFlanc/Discord-Snippets/actions/workflows/RefreshTitleBarUpdater.yml)
+[![UpdateDiscordClassNames](https://github.com/TirOFlanc/Discord-Snippets/actions/workflows/UpdateDiscordClassNames.yml/badge.svg)](https://github.com/TirOFlanc/Discord-Snippets/actions/workflows/UpdateDiscordClassNames.yml)
 
 # **Discord-Snippets (Visual-Refresh)**
 

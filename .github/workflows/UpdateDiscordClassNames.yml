@@ -34,7 +34,7 @@ jobs:
             rp-
             ac-
             vc-
-#           report-outdated: true
+          report-outdated: true
           target-branch: "updates"
           commit-message: "🔄 Mise à jour des classes Discord"
           pr-title: "🔄 Mise à jour des classes Discord à vérifier"

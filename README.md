@@ -1,67 +1,167 @@
-[![RefreshTitleBarUpdater](https://github.com/TirOFlanc/Discord-Snippets/actions/workflows/RefreshTitleBarUpdater.yml/badge.svg)](https://github.com/TirOFlanc/Discord-Snippets/actions/workflows/RefreshTitleBarUpdater.yml)
-[![UpdateDiscordClassNames](https://github.com/TirOFlanc/Discord-Snippets/actions/workflows/UpdateDiscordClassNames.yml/badge.svg)](https://github.com/TirOFlanc/Discord-Snippets/actions/workflows/UpdateDiscordClassNames.yml)
+<!-- * COMMENTAIRE INVISIBLE *
+---
+* Espace insécable *
+&nbsp;
+---
+* CENTRER DU TEXTE ET LE JUSTIFIER À DROITE
+<div align="center">
+  Texte
+  <p align="right">...</p>
+</div>
+---
+* NOTE DÉPLIABLE ET TEXTE EN INDICE & EXPOSANT *
+<details>
+  <summary>Mot affiché</summary>
+  <sub>Texte</sub>
+&nbsp;
+  <sup>dépliable</sup>
+</details>
+---
+* TABLEAU AVEC JUSTIFICATION *
+| Gauche | Centre | Droite |
+|:-------|:------:|-------:|
+---
+* TEMPLATE *
+<div>
+  <b>  The File Name  </b>  <br>
+  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=TheFileName.css">
+</div>
 
-# **Discord-Snippets (Visual-Refresh)**
+```CSS
+@import url(https://TirOFlanc.github.io/Discord-Snippets/TheFileName.css);
+```
+<sup><b>
+  Credits <a href="https://github.com/Pseudo">Pseudo</a> :
+  <a href="https://github.com/Repo/...">Repo⇗</a>
+</b></sup>
+#
+-->
 
-_Bibliothèque de morceaux de code CSS pour Discord._
+<div align="center">
+
+![Badge](https://img.shields.io/badge/Dev&nbsp;by-TirOFlanc-purple)
+![Last commit](https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets)
+
+# **Discord Snippets**<br>**<sup><em>visual-refresh</em></sup>**
+**Bibliothèque de morceaux de code CSS pour Discord**
 
 ---
 
-## ***Liens d'importation :***
+<div>
+  <b> Animated Spinning Logo </b>  <br>
+  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=AnimatedSpinningLogo.css">
+</div>
 
-* ### AnimatedSpinningLogo
 ```CSS
 @import url(https://TirOFlanc.github.io/Discord-Snippets/AnimatedSpinningLogo.css);
 ```
+#
 
-* ### ColorizedStatusIndicator
+<div>
+  <b>  Colorized Status Indicator  </b>  <br>
+  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=ColorizedStatusIndicator.css">
+</div>
+
 ```CSS
 @import url(https://TirOFlanc.github.io/Discord-Snippets/ColorizedStatusIndicator.css);
 ```
+#
 
-* ### InputBarButtons
+<div>
+  <b>  Input Bar Buttons  </b>  <br>
+  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=InputBarButtons.css">
+</div>
+
 ```CSS
 @import url(https://TirOFlanc.github.io/Discord-Snippets/InputBarButtons.css);
 ```
+#
 
-* ### MembersListCollapse
+<div>
+  <b>  Members List Collapse  </b>
+  <br>
+  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=MembersListCollapse.css">
+</div>
+
 ```CSS
 @import url(https://TirOFlanc.github.io/Discord-Snippets/MembersListCollapse.css);
 ```
+#
 
-* ### NiftyFontPlay
+<div>
+  <b>  Nifty Font Play  </b>  <br>
+  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=NiftyFontPlay.css">
+</div>
+
 ```CSS
 @import url(https://TirOFlanc.github.io/Discord-Snippets/NiftyFontPlay.css);
 ```
+#
 
-* ### RefreshTitleBar (Credits to [Chloe Cinders](https://github.com/chloecinders) : [Repo⇗](https://github.com/chloecinders/visual-refresh-compact-title-bar), maintained by [G0d0fninjas](https://github.com/G0d0fninjas) : [Repo⇗](https://github.com/G0d0fninjas/visual-refresh-compact-title-bar))
+<div>
+  <b>  Refresh Title Bar  </b>  <br>
+  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=RefreshTitleBar.css">
+</div>
+
 ```CSS
 @import url(https://TirOFlanc.github.io/Discord-Snippets/RefreshTitleBar.css);
 ```
+<sup><b>
+  Created by <a href="https://github.com/chloecinders">Chloe Cinders</a> :
+  <a href="https://github.com/chloecinders/visual-refresh-compact-title-bar">Repo⇗</a>,
+  maintained by <a href="https://github.com/G0d0fninjas">G0d0fninjas</a> :
+  <a href="https://github.com/G0d0fninjas/visual-refresh-compact-title-bar">Repo⇗</a>
+</b></sup>
+#
 
-* ### SideBarCollapse
+<div>
+  <b>  Side Bar Collapse  </b>  <br>
+  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=SideBarCollapse.css">
+</div>
+
 ```CSS
 @import url(https://TirOFlanc.github.io/Discord-Snippets/SideBarCollapse.css);
 ```
+#
 
-* ### UnobtrusiveTooltipInteraction
+<div>
+  <b>  Unobtrusive Tooltip Interaction  </b>  <br>
+  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=UnobtrusiveTooltipInteraction.css">
+</div>
+
 ```CSS
 @import url(https://TirOFlanc.github.io/Discord-Snippets/UnobtrusiveTooltipInteraction.css);
 ```
+#
 
-* ### UnreadMessagesShaker (Inspired by [Saltssaumure](https://github.com/Saltssaumure) : [Repo⇗](https://github.com/MiniDiscordThemes/Snippets/tree/main/themes/UnreadShake))
+<div>
+  <b>  Unread Messages Shaker  </b>  <br>
+  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=UnreadMessagesShaker.css">
+</div>
+
 ```CSS
 @import url(https://TirOFlanc.github.io/Discord-Snippets/UnreadMessagesShaker.css);
 ```
+<sup><b>
+  Inspired by <a href="https://github.com/Saltssaumure">Saltssaumure</a> :
+  <a href="https://github.com/MiniDiscordThemes/Snippets/tree/main/themes/UnreadShake">Repo⇗</a>
+</b></sup>
+#
 
-* ### VisualVoiceIndicator
+<div>
+  <b>  Visual Voice Indicator  </b>  <br>
+  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=VisualVoiceIndicator.css">
+</div>
+
 ```CSS
 @import url(https://TirOFlanc.github.io/Discord-Snippets/VisualVoiceIndicator.css);
 ```
 
 ---
 
-* ### AllInOne
+# **AllInOne**
+<div align="left">
+  
 ```CSS
 @import url(https://TirOFlanc.github.io/Discord-Snippets/AnimatedSpinningLogo.css);
 @import url(https://TirOFlanc.github.io/Discord-Snippets/ColorizedStatusIndicator.css);
@@ -74,5 +174,9 @@ _Bibliothèque de morceaux de code CSS pour Discord._
 @import url(https://TirOFlanc.github.io/Discord-Snippets/UnreadMessagesShaker.css);
 @import url(https://TirOFlanc.github.io/Discord-Snippets/VisualVoiceIndicator.css);
 ```
+</div>
 
 ---
+
+Made with 💜 by TirOFlanc
+</div>

@@ -4,7 +4,7 @@
 }
 
 .visual-refresh {
-	:is(.c8ffbb79449f399c-container,._7641b507c6cdbb10-container) {
+	:is(.container_c8ffbb,.container__7641b) {
 		--custom-member-list-width:var(--MemberlistCollapse);
 		width:var(--custom-member-list-width);
 		transition:width .1s;
@@ -16,7 +16,7 @@
 		}
 
 		&:not(:hover) {
-			.c8ffbb79449f399c-membersGroup {
+			.membersGroup_c8ffbb {
 				&+div {padding-top:6px}
 				&,&~div:not([class]) {display:none}
 				&~[class*="offline"] {
@@ -27,10 +27,10 @@
 			}
 		}
 
-		.c8ffbb79449f399c-membersGroup {
-			._095fe51feb41b3bb-toggleExpandIcon {display:none}
+		.membersGroup_c8ffbb {
+			.toggleExpandIcon__095fe {display:none}
 
-			&:has(._095fe51feb41b3bb-toggleExpandIcon) {
+			&:has(.toggleExpandIcon__095fe) {
 				transition:height .3s,padding-top .3s,opacity .3s;
 				will-change:height,padding-top,opacity;
 				opacity:0;
@@ -44,9 +44,9 @@
 				}
 			}
 
-			._095fe51feb41b3bb-headerContainer {justify-content:center}
+			.headerContainer__095fe {justify-content:center}
 
-			&:not(:has(._095fe51feb41b3bb-headerContainer)) {
+			&:not(:has(.headerContainer__095fe)) {
 				padding-top:15px;
 				margin-bottom:5px;
 				text-align:center;

@@ -5,32 +5,32 @@
 }
 
 .visual-refresh {
-	._5e434347c823b592-sidebar {
+	.sidebar__5e434 {
 		--_SidebarTransition:var(--SidebarCollapse);
 		isolation:isolate;
 
-		._5e434347c823b592-guilds,
-		._5e434347c823b592-sidebarList,
-		.f37cb1984c371ee5-bannerImg {transition:var(--_SidebarTransition)}
+		.guilds__5e434,
+		.sidebarList__5e434,
+		.bannerImg_f37cb1 {transition:var(--_SidebarTransition)}
 
-		._5e434347c823b592-guilds {width:var(--SidebarWidth)}
+		.guilds__5e434 {width:var(--SidebarWidth)}
 
-		._5e434347c823b592-sidebarList,
-		.f37cb1984c371ee5-bannerImg {width:calc(var(--custom-guild-sidebar-width) - var(--SidebarWidth) - 1px)}
+		.sidebarList__5e434,
+		.bannerImg_f37cb1 {width:calc(var(--custom-guild-sidebar-width) - var(--SidebarWidth) - 1px)}
 
 		&:hover {
 			--_SidebarTransition:var(--SidebarExpand);
 
-			._5e434347c823b592-guilds,
-			._5e434347c823b592-sidebarList,
-			.f37cb1984c371ee5-bannerImg {will-change:width}
+			.guilds__5e434,
+			.sidebarList__5e434,
+			.bannerImg_f37cb1 {will-change:width}
 		}
 
 	/* Pour un survol sur l'entièreté des colonnes de serveurs et de conversations privées / salons */
 		/* &:has(>:nth-child(-n+2):hover) {--SidebarWidth:var(--custom-guild-list-width)} */
 
 	/* Pour un survol sur la colonne de serveur et les en-têtes des colonnes de conversations privées / salons */
-		&:has(._5e434347c823b592-guilds:hover),
-		&:has(._5e434347c823b592-sidebarList>nav>:first-child:hover) {--SidebarWidth:var(--custom-guild-list-width)}
+		&:has(.guilds__5e434:hover),
+		&:has(.sidebarList__5e434>nav>:first-child:hover) {--SidebarWidth:var(--custom-guild-list-width)}
 	}
 }

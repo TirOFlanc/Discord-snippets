@@ -6,31 +6,31 @@
 	#app-mount {
 
 	/*** Estompage des utilisateurs supprimés de la colonne des conversations privées ***/
-		._972a0d22c8afa7f0-dm:has([aria-label*="deleted_user"]):not(:has([class*="selected"]),:hover) {opacity:.25}
+		.dm__972a0:has([aria-label*="deleted_user"]):not(:has([class*="selected"]),:hover) {opacity:.25}
 
 	/** Suppression du statut en texte sous les pseudos de la liste des amis **/
-		._19b6da809e654e70-text {display:none}
+		.text__19b6d {display:none}
 
 	/*** Ajustement de la barre de défilement de la colonne des membres ***/
-		.c8ffbb79449f399c-members::-webkit-scrollbar {width:6px}
+		.members_c8ffbb::-webkit-scrollbar {width:6px}
 
 	/*** Suppression de l'indicateur de statut par défaut ***/
-		._44b0c28be7879b7b-wrapper,
-		._1ce5d425feffd32a-container {
+		.wrapper__44b0c,
+		.container__1ce5d {
 			rect,circle,&>div,
-			.a423bdd721ddcc83-status {display:none}
+			.status_a423bd {display:none}
 
 			[mask] {mask:none}
 
-			._44b0c28be7879b7b-mask ._44b0c28be7879b7b-avatar,
+			.mask__44b0c .avatar__44b0c,
 			& :is([src*="avatars"],[src*="assets"]) {
 				border-radius:50%
 			}
 		}
 
 	/*** Remplacement de l'indicateur de frappe ***/
-		[class*="layout"]:has(._5ad890d06f24286d-dots) {
-			& :is([src*="avatars"],[src*="channel-icon"],[src*="assets"],[class*="emoji"],._10651c5cfe637db6-badge,path) {
+		[class*="layout"]:has(.dots__5ad89) {
+			& :is([src*="avatars"],[src*="channel-icon"],[src*="assets"],[class*="emoji"],.badge__10651,path) {
 				will-change:transform;
 				transform-origin:50% 50%;
 				animation:rotate 1.25s infinite linear
@@ -44,19 +44,19 @@
 		}
 
 	/*** Colorisation des groupes et du bot système ***/
-		.a3002d7de5be5280-notAppAsidePanel {
-			._972a0d22c8afa7f0-dm:has(._972a0d22c8afa7f0-subtext) ._20a53846fe2e8513-name>div,	/* Colonne des conversations (groupes et bot système) */
-			._9293f6b2fc12398a-children:not(:has(rect,[class*="tab"]))							/* En-tête des conversations */
+		.notAppAsidePanel_a3002d {
+			.dm__972a0:has(.subtext__972a0) .name__20a53>div,	/* Colonne des conversations (groupes et bot système) */
+			.children__9293f:not(:has(rect,[class*="tab"]))							/* En-tête des conversations */
 			:is(span>div>div:nth-child(2),div>h1>span:first-child),								/* ... Groupe / Bot système */
 			[class*="user-profile"]>div:has([aria-label="discord"])								/* Aperçu de profil et profil complet (bot système) */
-			:is(._63ed30c16c7151f2-nickname,._05e81ad8c06c1066-username)						/* ... Nom / Description */
+			:is(.nickname__63ed3,.username__05e81)						/* ... Nom / Description */
 			{color:var(--Groulor)!important}
 			
-			._972a0d22c8afa7f0-dm:has(._972a0d22c8afa7f0-subtext) 
+			.dm__972a0:has(.subtext__972a0) 
 			{
-				&:has(.a423bdd721ddcc83-status,[mask*="typing"],rect)							/* Groupe avec deux avatars : ".a423bdd721ddcc83-status,[mask*="typing"]" / groupe avec image personnalisée : "rect" */
+				&:has(.status_a423bd,[mask*="typing"],rect)							/* Groupe avec deux avatars : ".status_a423bd,[mask*="typing"]" / groupe avec image personnalisée : "rect" */
 				{
-					:is(._44b0c28be7879b7b-wrapper,._1ce5d425feffd32a-container)::before {
+					:is(.wrapper__44b0c,.container__1ce5d)::before {
 						top:-5%;
 						left:-5%;
 						height:110%;
@@ -74,16 +74,16 @@
 	/*** Remplacement de l'indicateur de statut ***/
 			/* Cas particulier */
 		/** Récupération du statut **/
-		.user-profile-sidebar>div>div:not(:has([aria-label="discord"]))							/* Colonne d'aperçu de profil de conversation privée : "_63ed30c16c7151f2-usernameRow" et "_63ed30c16c7151f2-userTag" */
+		.user-profile-sidebar>div>div:not(:has([aria-label="discord"]))							/* Colonne d'aperçu de profil de conversation privée : "usernameRow__63ed3" et "userTag__63ed3" */
 		{
-			&:has(._7f9c030b25536e94-header rect:is([fill="#43a25a"],[fill="#45a366"],[mask*="online"])) {--Status:#43a25a}
-			&:has(._7f9c030b25536e94-header rect:is([fill="#ca9654"],[fill="#ffc04e"],[mask*="idle"])) {--Status:#ca9654}				/* Problème lorsque l'on déplie les amis en commun */
-			&:has(._7f9c030b25536e94-header rect:is([fill="#d83a42"],[fill="#da3e44"],[mask*="dnd"])) {--Status:#d83a42}			/* Le parent du statut et du pseudo a aussi pour fils les amis en commun */
-			&:has(._7f9c030b25536e94-header rect:is([fill="#82838b"],[fill="#84858d"],[mask*="offline"])) {--Status:#82838b}
-			&:has(._7f9c030b25536e94-header rect:is([fill="#9147ff"],[fill=""],[mask*="streaming"])) {--Status:#9147ff}
+			&:has(.header__7f9c0 rect:is([fill="#43a25a"],[fill="#45a366"],[mask*="online"])) {--Status:#43a25a}
+			&:has(.header__7f9c0 rect:is([fill="#ca9654"],[fill="#ffc04e"],[mask*="idle"])) {--Status:#ca9654}				/* Problème lorsque l'on déplie les amis en commun */
+			&:has(.header__7f9c0 rect:is([fill="#d83a42"],[fill="#da3e44"],[mask*="dnd"])) {--Status:#d83a42}			/* Le parent du statut et du pseudo a aussi pour fils les amis en commun */
+			&:has(.header__7f9c0 rect:is([fill="#82838b"],[fill="#84858d"],[mask*="offline"])) {--Status:#82838b}
+			&:has(.header__7f9c0 rect:is([fill="#9147ff"],[fill=""],[mask*="streaming"])) {--Status:#9147ff}
 
 			/** Coloration selon le statut **/
-			._63ed30c16c7151f2-usernameRow ._4bd5201c86a2042b-defaultColor,._63ed30c16c7151f2-userTag>span
+			.usernameRow__63ed3 .defaultColor__4bd52,.userTag__63ed3>span
 			{
 				color:var(--Status,transparent);
 				transition:color 1.5s
@@ -92,18 +92,18 @@
 
 			/* Les autres */
 		/** Récupération du statut **/
-		._972a0d22c8afa7f0-dm>div:not(:has(._972a0d22c8afa7f0-subtext)),						/* Colonne des conversations (groupes et bot système exclus) : "_20a53846fe2e8513-name" et "c9d15c8a962de3c8-truncated" */
-		._0a06ed6ea040aa1b-userInfo:has(rect),													/* Liste des amis : "f4bc976213b83e68-info" et "c9d15c8a962de3c8-truncated" */
-		._00943886e1cf89d1-header,																/* Colonne des activités des amis : "_00943886e1cf89d1-textContent" */
-		._5017b12e7aa6c216-memberItem:has(rect),												/* Détails d'activité d'amis (soi-même exclu) : "f4bc976213b83e68-info" */
-		._9293f6b2fc12398a-children:has(rect[fill]),											/* En-tête des conversations : "_9293f6b2fc12398a-title et _488b1a4248d1b790-nicknames" */
-		.user-profile-popout>div:not(:has([aria-label="discord"])),								/* Aperçu de profil et Nitro : "_63ed30c16c7151f2-usernameRow", "f4bc976213b83e68-info" et "_63ed30c16c7151f2-userTag" */
-		._89036700569ec527-row,																	/* Liste d'amis en commun : "f4bc976213b83e68-info" et "c9d15c8a962de3c8-truncated" */
-		._9c3bea41fd465666-profile,.user-profile-modal>div,										/* Profil complet (membres, bots) : "_63ed30c16c7151f2-usernameRow", "f4bc976213b83e68-info" et "_63ed30c16c7151f2-userTag" */
-		._1fed1dd06c7aabf7-userInfo,															/* Paramètres utilisateur - Mon compte : "f4bc976213b83e68-info" */
-		._37e49614b9f110a9-avatarWrapper,														/* Zone utilisateur : "b6c092614b8d59f3-title", "_0263c8321829b3e8-hovered" et "c9d15c8a962de3c8-truncated" */
+		.dm__972a0>div:not(:has(.subtext__972a0)),						/* Colonne des conversations (groupes et bot système exclus) : "name__20a53" et "truncated_c9d15c" */
+		.userInfo__0a06e:has(rect),													/* Liste des amis : "info_f4bc97" et "truncated_c9d15c" */
+		.header__00943,																/* Colonne des activités des amis : "textContent__00943" */
+		.memberItem__5017b:has(rect),												/* Détails d'activité d'amis (soi-même exclu) : "info_f4bc97" */
+		.children__9293f:has(rect[fill]),											/* En-tête des conversations : "title__9293f et nicknames__488b1" */
+		.user-profile-popout>div:not(:has([aria-label="discord"])),								/* Aperçu de profil et Nitro : "usernameRow__63ed3", "info_f4bc97" et "userTag__63ed3" */
+		.row__89036,																	/* Liste d'amis en commun : "info_f4bc97" et "truncated_c9d15c" */
+		.profile__9c3be,.user-profile-modal>div,										/* Profil complet (membres, bots) : "usernameRow__63ed3", "info_f4bc97" et "userTag__63ed3" */
+		.userInfo__1fed1,															/* Paramètres utilisateur - Mon compte : "info_f4bc97" */
+		.avatarWrapper__37e49,														/* Zone utilisateur : "title_b6c092", "hovered__0263c" et "truncated_c9d15c" */
 
-		._5d473ecff348c314-member:has(rect)														/* Colonne des membres de groupe et de serveur : "_91a9d7f7e5248a56-childContainer", "_44b0c28be7879b7b-wrapper" et "c9d15c8a962de3c8-truncated" */
+		.member__5d473:has(rect)														/* Colonne des membres de groupe et de serveur : "childContainer__91a9d", "wrapper__44b0c" et "truncated_c9d15c" */
 		{
 			&:has(rect:is([fill="#43a25a"],[fill="#45a366"],[mask*="online"])) {--Status:#43a25a}
 			&:has(rect:is([fill="#ca9654"],[fill="#ffc04e"],[mask*="idle"])) {--Status:#ca9654}
@@ -112,31 +112,31 @@
 			&:has(rect:is([fill="#9147ff"],[fill=""],[mask*="streaming"])) {--Status:#9147ff}
 
 			/** Coloration selon le statut **/
-			._20a53846fe2e8513-name,.c9d15c8a962de3c8-truncated:not(.c9d15c8a962de3c8-dot),
-			.f4bc976213b83e68-info>span:first-child,
-			._00943886e1cf89d1-textContent:first-child>:first-child,
-			._00943886e1cf89d1-textContent:first-child:not(:has(*)),
-			._9293f6b2fc12398a-title>span,._488b1a4248d1b790-nicknames>span>span,
-			._63ed30c16c7151f2-usernameRow ._4bd5201c86a2042b-defaultColor,._63ed30c16c7151f2-userTag>span,
-			.b6c092614b8d59f3-title,._0263c8321829b3e8-hovered
+			.name__20a53,.truncated_c9d15c:not(.dot_c9d15c),
+			.info_f4bc97>span:first-child,
+			.textContent__00943:first-child>:first-child,
+			.textContent__00943:first-child:not(:has(*)),
+			.title__9293f>span,.nicknames__488b1>span>span,
+			.usernameRow__63ed3 .defaultColor__4bd52,.userTag__63ed3>span,
+			.title_b6c092,.hovered__0263c
 			{
 				color:var(--Status,transparent);
 				transition:color 1.5s
 			}
 
 			/** Ajout d'un liseré à gauche et à droite des membres selon leur statut **/
-			._91a9d7f7e5248a56-childContainer
+			.childContainer__91a9d
 			{
 				box-shadow:-2px 0 0 0 var(--Status,transparent),2px 0 0 0 var(--Status,transparent);
 				transition:box-shadow 1.5s
 			}
 
 			/** Ajout d'une aura autour de l'avatar **/
-			:is(._972a0d22c8afa7f0-channel,														/* Colonne des conversations */
-			._37e49614b9f110a9-container,														/* Zone utilisateur */
-			.c8ffbb79449f399c-members) &														/* Colonne des membres de groupe et de serveur */
+			:is(.channel__972a0,														/* Colonne des conversations */
+			.container__37e49,														/* Zone utilisateur */
+			.members_c8ffbb) &														/* Colonne des membres de groupe et de serveur */
 			{
-				._44b0c28be7879b7b-wrapper
+				.wrapper__44b0c
 				{
 					box-shadow:0 0 5px 2px var(--Status,transparent);
 					transition:box-shadow 1.5s

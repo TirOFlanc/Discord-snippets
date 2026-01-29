@@ -1,6 +1,6 @@
 .visual-refresh {
-	._5e434347c823b592-sidebar {
-		:is(._650eb104245d257b-listItem:has(.cc5dd25190031396-lowerBadge,[style*="height: 8px"])) .cc5dd25190031396-wrapper,	/* Avatars de contacts et de serveurs */
+	.sidebar__5e434 {
+		:is(.listItem__650eb:has(.lowerBadge_cc5dd2,[style*="height: 8px"])) .wrapper_cc5dd2,	/* Avatars de contacts et de serveurs */
 		:is([aria-label*="non lu"],[aria-label*="mention"]):not(:hover)															/* DMs, salons textuels et vocaux et fils de forum */
 		{
 			animation:shaker .75s linear .05s infinite

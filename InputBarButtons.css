@@ -5,21 +5,21 @@
 }
 
 .visual-refresh {
-	._740174f3d6a2c8fe-scrollableContainer {
+	.scrollableContainer__74017 {
 		&::-webkit-scrollbar {display:none}
 
 		&>div {
 			padding:0 12px 0 16px;
 			
-			._0923f156a0410684-attachWrapper {
+			.attachWrapper__0923f {
 				top:0;
 				height:0
 			}
 
-			._740174f3d6a2c8fe-buttons {
-				&>:not(:has(._740174f3d6a2c8fe-emojiButton)) {display:none}
+			.buttons__74017 {
+				&>:not(:has(.emojiButton__74017)) {display:none}
 
-				._740174f3d6a2c8fe-emojiButton {
+				.emojiButton__74017 {
 					transition:all var(--EmojiTransition) ease-in-out;
 					opacity:var(--EmojiOpacity);
 					scale:1;

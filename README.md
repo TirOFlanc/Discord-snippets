@@ -39,8 +39,8 @@
 
 <div align="center">
 
-![Badge](https://img.shields.io/badge/Dev&nbsp;by-TirOFlanc-purple)
-![Last commit](https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets)
+![Badge](https://img.shields.io/badge/Dev&nbsp;by-TirOFlanc-663399?style=plastic)
+![Last commit](https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets/main?style=plastic)
 
 # **Discord Snippets**<br>**<sup><em>visual-refresh</em></sup>**
 **Bibliothèque de morceaux de code CSS pour Discord**
@@ -49,7 +49,7 @@
 
 <div>
   <b> Animated Spinning Logo </b>  <br>
-  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=AnimatedSpinningLogo.css">
+  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=AnimatedSpinningLogo.css&style=plastic">
 </div>
 
 ```CSS
@@ -59,7 +59,7 @@
 
 <div>
   <b>  Colorized Status Indicator  </b>  <br>
-  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=ColorizedStatusIndicator.css">
+  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=ColorizedStatusIndicator.css&style=plastic">
 </div>
 
 ```CSS
@@ -69,7 +69,7 @@
 
 <div>
   <b>  Input Bar Buttons  </b>  <br>
-  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=InputBarButtons.css">
+  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=InputBarButtons.css&style=plastic">
 </div>
 
 ```CSS
@@ -80,7 +80,7 @@
 <div>
   <b>  Members List Collapse  </b>
   <br>
-  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=MembersListCollapse.css">
+  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=MembersListCollapse.css&style=plastic">
 </div>
 
 ```CSS
@@ -90,7 +90,7 @@
 
 <div>
   <b>  Nifty Font Play  </b>  <br>
-  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=NiftyFontPlay.css">
+  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=NiftyFontPlay.css&style=plastic">
 </div>
 
 ```CSS
@@ -100,7 +100,7 @@
 
 <div>
   <b>  Refresh Title Bar  </b>  <br>
-  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=RefreshTitleBar.css">
+  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=RefreshTitleBar.css&style=plastic">
 </div>
 
 ```CSS
@@ -116,7 +116,7 @@
 
 <div>
   <b>  Side Bar Collapse  </b>  <br>
-  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=SideBarCollapse.css">
+  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=SideBarCollapse.css&style=plastic">
 </div>
 
 ```CSS
@@ -126,7 +126,7 @@
 
 <div>
   <b>  Unobtrusive Tooltip Interaction  </b>  <br>
-  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=UnobtrusiveTooltipInteraction.css">
+  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=UnobtrusiveTooltipInteraction.css&style=plastic">
 </div>
 
 ```CSS
@@ -136,7 +136,7 @@
 
 <div>
   <b>  Unread Messages Shaker  </b>  <br>
-  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=UnreadMessagesShaker.css">
+  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=UnreadMessagesShaker.css&style=plastic">
 </div>
 
 ```CSS
@@ -150,7 +150,7 @@
 
 <div>
   <b>  Visual Voice Indicator  </b>  <br>
-  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=VisualVoiceIndicator.css">
+  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=VisualVoiceIndicator.css&style=plastic">
 </div>
 
 ```CSS

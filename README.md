@@ -21,6 +21,8 @@
 | Gauche | Centre | Droite |
 |:-------|:------:|-------:|
 ---
+Site de logos pour badges : https://simpleicons.org/
+---
 * TEMPLATE *
 <div>
   <b>  The File Name  </b>  <br>
@@ -39,7 +41,7 @@
 
 <div align="center">
 
-![Badge](https://img.shields.io/badge/Dev&nbsp;by-TirOFlanc-663399?style=plastic&labelColor=181818)
+![Badge](https://img.shields.io/badge/Dev&nbsp;by-TirOFlanc-663399?style=plastic&logo=diaspora&labelColor=181818)
 ![Last commit](https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets/main?style=plastic&labelColor=181818&cacheSeconds=3600)
 
 # **Discord Snippets**<br>**<sup><em>visual-refresh</em></sup>**

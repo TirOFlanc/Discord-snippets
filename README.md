@@ -135,7 +135,7 @@ Site de logos pour badges : https://simpleicons.org/
 @import url(https://TirOFlanc.github.io/Discord-Snippets/UnobtrusiveTooltipInteraction.css);
 ```
 ><sup>
->  Utilisée dans <b>MembersListCollapse</b> et <b>SideBarCollapse</b> pour éviter la perte de focus en survolant les infobulles)
+>  ℹ️ Utilisée dans <b>MembersListCollapse</b> et <b>SideBarCollapse</b> pour éviter la perte de focus en survolant les infobulles
 ></sup>
 #
 

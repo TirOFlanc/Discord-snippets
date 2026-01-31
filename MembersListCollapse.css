@@ -7,55 +7,58 @@
 	:is(.container_c8ffbb,.container__7641b) {
 		--custom-member-list-width:var(--MemberlistCollapse);
 		width:var(--custom-member-list-width);
-		transition:width .1s;
-		will-change:width;
+		transition:width .15s ease-in-out;
+		contain:layout paint size;
+		/* will-change:transform; */
+		isolation:isolate;
+
+		.members_c8ffbb {
+			padding-top:5px;
+
+			.membersGroup_c8ffbb {
+				&,&~div:not([class]),&~[class*="offline"],
+				.toggleExpandIcon__095fe {display:none}
+
+				&>:last-child {justify-content:center}
+
+				&:has(.headerContainer__095fe) {
+					transition:height .2s,padding-block .2s,opacity .2s;
+					/* will-change:height,padding-block,opacity; */
+					opacity:0;
+					height:0;
+					padding-block:0;
+
+					&:hover {
+						opacity:1;
+						height:42px;
+						padding-block:15px
+					}
+				}
+
+				&:not(:has(.headerContainer__095fe)) {
+					padding-top:15px;
+					margin-bottom:5px;
+					text-align:center;
+					background-image:
+						linear-gradient(90deg,transparent,transparent),
+						linear-gradient(90deg,transparent,var(--channels-default),transparent);
+					background-size:100% 1px;
+					background-position:0 0,0 100%;
+					background-repeat:no-repeat
+				}
+			}
+		}
 
 		&:hover {
 			--custom-member-list-width:var(--MemberlistExpand);
-			transition:width .3s
-		}
+			transition:width .3s ease-in-out;
 
-		&:not(:hover) {
-			.membersGroup_c8ffbb {
-				&+div {padding-top:6px}
-				&,&~div:not([class]) {display:none}
-				&~[class*="offline"] {
-					opacity:0;
-					transition:opacity .2s;
-					will-change:opacity
-				}
-			}
-		}
-
-		.membersGroup_c8ffbb {
-			.toggleExpandIcon__095fe {display:none}
-
-			&:has(.toggleExpandIcon__095fe) {
-				transition:height .3s,padding-top .3s,opacity .3s;
-				will-change:height,padding-top,opacity;
-				opacity:0;
-				height:0;
+			.members_c8ffbb {
 				padding-top:0;
 
-				&:hover {
-					opacity:1;
-					height:42px;
-					padding-top:20px
+				.membersGroup_c8ffbb {
+					&,&~div:not([class]),&~[class*="offline"] {display:block}
 				}
-			}
-
-			.headerContainer__095fe {justify-content:center}
-
-			&:not(:has(.headerContainer__095fe)) {
-				padding-top:15px;
-				margin-bottom:5px;
-				text-align:center;
-				background-image:
-					linear-gradient(90deg,transparent,transparent),
-					linear-gradient(90deg,transparent,var(--channels-default),transparent);
-				background-size:100% 1px;
-				background-position:0 0,0 100%;
-				background-repeat:no-repeat
 			}
 		}
 	}

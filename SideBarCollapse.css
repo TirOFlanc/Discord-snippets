@@ -1,3 +1,5 @@
+@import url(https://TirOFlanc.github.io/Discord-Snippets/UnobtrusiveTooltipInteraction.css);
+
 :root {
 	--SidebarWidth:		1px;
 	--SidebarExpand:	width .15s ease-in-out;

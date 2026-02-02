@@ -13,7 +13,7 @@ jobs:
       pull-requests: write
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Vérification de mise à jour des noms de classe Discord
         uses: fedeericodl/discord-update-classnames@main

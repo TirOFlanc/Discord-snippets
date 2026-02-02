@@ -23,9 +23,9 @@
 		&:hover {
 			--_SidebarTransition:var(--SidebarExpand);
 
-			.guilds__5e434,
+			/* .guilds__5e434,
 			.sidebarList__5e434,
-			.bannerImg_f37cb1 {will-change:width}
+			.bannerImg_f37cb1 {will-change:width} */
 		}
 
 	/* Pour un survol sur l'entièreté des colonnes des serveurs et des colonnes de conversations privées & salons */

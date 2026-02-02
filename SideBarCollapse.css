@@ -28,7 +28,7 @@
 			.bannerImg_f37cb1 {will-change:width}
 		}
 
-	/* Pour un survol sur l'entièreté des colonnes des serveurs et des colonnes des conversations privées & salons */
+	/* Pour un survol sur l'entièreté des colonnes des serveurs et des colonnes de conversations privées & salons */
 		/* &:has(>:nth-child(-n+2):hover) {--SidebarWidth:var(--custom-guild-list-width)} */
 
 	/* Pour un survol sur la colonne des serveurs et les en-têtes des colonnes de conversations privées & salons */

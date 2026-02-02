@@ -8,6 +8,7 @@
 
 .visual-refresh {
 	.sidebar__5e434 {
+		--_SidebarWidth:calc(var(--custom-guild-sidebar-width) - var(--SidebarWidth) - 1px);
 		--_SidebarTransition:var(--SidebarCollapse);
 		isolation:isolate;
 
@@ -18,7 +19,7 @@
 		.guilds__5e434 {width:var(--SidebarWidth)}
 
 		.sidebarList__5e434,
-		.bannerImg_f37cb1 {width:calc(var(--custom-guild-sidebar-width) - var(--SidebarWidth) - 1px)}
+		.bannerImg_f37cb1 {width:var(--_SidebarWidth)}
 
 		&:hover {--_SidebarTransition:var(--SidebarExpand)}
 

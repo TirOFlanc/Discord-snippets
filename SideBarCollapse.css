@@ -20,13 +20,7 @@
 		.sidebarList__5e434,
 		.bannerImg_f37cb1 {width:calc(var(--custom-guild-sidebar-width) - var(--SidebarWidth) - 1px)}
 
-		&:hover {
-			--_SidebarTransition:var(--SidebarExpand);
-
-			/* .guilds__5e434,
-			.sidebarList__5e434,
-			.bannerImg_f37cb1 {will-change:width} */
-		}
+		&:hover {--_SidebarTransition:var(--SidebarExpand)}
 
 	/* Pour un survol sur l'entièreté des colonnes des serveurs et des colonnes de conversations privées & salons */
 		/* &:has(>:nth-child(-n+2):hover) {--SidebarWidth:var(--custom-guild-list-width)} */

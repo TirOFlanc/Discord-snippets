@@ -1,17 +1,19 @@
 @import url(https://TirOFlanc.github.io/Discord-Snippets/UnobtrusiveTooltipInteraction.css);
 
 :root {
-	--MemberlistCollapse:	64px;
-	--MemberlistExpand:		264px
+	--MemberlistWidthCollapse:	64px;
+	--MemberlistWidthExpand:	310px;
+	--MemberlistCollapse:		width .2s ease-in-out;
+	--MemberlistExpand:			width .1s ease-in-out
 }
 
 .visual-refresh {
 	:is(.container_c8ffbb,.container__7641b) {
-		--custom-member-list-width:var(--MemberlistCollapse);
+		--custom-member-list-width:var(--MemberlistWidthCollapse);
+		--_MemberlistTransition:var(--MemberlistCollapse);
+		transition:var(--_MemberlistTransition);
 		width:var(--custom-member-list-width);
-		transition:width .15s ease-in-out;
 		contain:layout paint size;
-		/* will-change:transform; */
 		isolation:isolate;
 
 		.members_c8ffbb {
@@ -24,8 +26,7 @@
 				&>:last-child {justify-content:center}
 
 				&:has(.headerContainer__095fe) {
-					transition:height .2s,padding-block .2s,opacity .2s;
-					/* will-change:height,padding-block,opacity; */
+					transition:height .15s,padding-block .15s,opacity .15s;
 					opacity:0;
 					height:0;
 					padding-block:0;
@@ -52,8 +53,8 @@
 		}
 
 		&:hover {
-			--custom-member-list-width:var(--MemberlistExpand);
-			transition:width .3s ease-in-out;
+			--custom-member-list-width:var(--MemberlistWidthExpand);
+			--_MemberlistTransition:var(--MemberlistExpand);
 
 			.members_c8ffbb {
 				padding-top:0;

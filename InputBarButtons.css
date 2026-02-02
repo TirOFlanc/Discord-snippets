@@ -20,7 +20,7 @@
 				&>:not(:has(.emojiButton__74017)) {display:none}
 
 				.emojiButton__74017 {
-					transition:all var(--EmojiTransition) ease-in-out;
+					transition:opacity var(--EmojiTransition) ease-in-out,scale var(--EmojiTransition) ease-in-out;
 					opacity:var(--EmojiOpacity);
 					scale:1;
 

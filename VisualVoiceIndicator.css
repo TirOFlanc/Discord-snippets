@@ -28,9 +28,7 @@
 			}
 
 			&:has([d*="2v-2.06A8 8 0 0"],.iconServer__07f91),
-			.container__37e49:has(.hasColorGlow__37e49) & {
-				box-shadow:inset 0 0 2px 1px var(--status-danger)
-			}
+			.container__37e49:has(.hasColorGlow__37e49) & {box-shadow:inset 0 0 2px 1px var(--status-danger)}
 		}
 	}
 }

@@ -14,7 +14,6 @@
 					.usernameContainer__394db {overflow:visible}
 
 					&>div>* {
-						will-change:transform;
 						transition:color .15s;
 						color:var(--status-speaking);
 						animation:wave .25s infinite

@@ -41,8 +41,8 @@ Site de logos pour badges : https://simpleicons.org/
 
 <div align="center">
 
-![Badge](https://img.shields.io/badge/Dev&nbsp;by-TirOFlanc-663399?style=plastic&logo=diaspora&labelColor=181818)(https://github.com/TirOFlanc)
-![Last commit](https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets/main?style=plastic&labelColor=181818&cacheSeconds=3600)(https://github.com/TirOFlanc/Discord-Snippets)
+[![Badge](https://img.shields.io/badge/Dev&nbsp;by-TirOFlanc-663399?style=plastic&logo=diaspora&labelColor=181818)](https://github.com/TirOFlanc)
+[![Last commit](https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets/main?style=plastic&labelColor=181818&cacheSeconds=3600)](https://github.com/TirOFlanc/Discord-Snippets)
 
 # **Discord Snippets**<br>**<sup><em>visual-refresh</em></sup>**
 **Bibliothèque de morceaux de code CSS pour Discord**

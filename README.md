@@ -116,7 +116,7 @@ Site de logos pour badges : https://simpleicons.org/
 <sup><b>
   Created by <a href="https://github.com/chloecinders"><sup>Chloe Cinders</sup></a><sup> : </sup>
   <a href="https://github.com/chloecinders/visual-refresh-compact-title-bar"><sup>Repo⇗</sup></a>
-  </b> & <b>
+  </b></sup><sup> & </sup><sup><b>
   Maintained by <a href="https://github.com/G0d0fninjas"><sup>G0d0fninjas</sup></a><sup> : </sup>
   <a href="https://github.com/G0d0fninjas/visual-refresh-compact-title-bar"><sup>Repo⇗</sup></a>
 </b></sup>

@@ -159,7 +159,7 @@ Site de logos pour badges : https://simpleicons.org/
 <sup><b>
   Inspired by <a href="https://github.com/Saltssaumure"><sup>Saltssaumure</sup></a><sup> : </sup>
   <a href="https://github.com/MiniDiscordThemes/Snippets/tree/main/themes/UnreadShake"><sup>Repo⇗</sup></a>
-</b></sub>
+</b></sup>
 #
 
 <div

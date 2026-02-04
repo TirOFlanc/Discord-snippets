@@ -50,7 +50,7 @@ Site de logos pour badges : https://simpleicons.org/
 ---
 <div>
   <b> Animated Spinning Logo </b>  <br>
-  <a href="https://github.com/TirOFlanc/Discord-Snippets/blob/main/AnimatedSpinningLogo.css">
+    <a href="https://github.com/TirOFlanc/Discord-Snippets/blob/main/AnimatedSpinningLogo.css">
     <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=AnimatedSpinningLogo.css&style=plastic&labelColor=181818&cacheSeconds=3600">
   </a>
 </div>
@@ -61,17 +61,8 @@ Site de logos pour badges : https://simpleicons.org/
 #
 
 <div>
-  <b> Animated Spinning Logo </b>  <br>
-  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=AnimatedSpinningLogo.css&style=plastic&labelColor=181818&cacheSeconds=3600">
-</div>
-
-```CSS
-@import url(https://TirOFlanc.github.io/Discord-Snippets/AnimatedSpinningLogo.css);
-```
-#
-
-<div>
   <b>  Colorized Status Indicator  </b>  <br>
+    <a href="https://github.com/TirOFlanc/Discord-Snippets/blob/main/ColorizedStatusIndicator.css">
   <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=ColorizedStatusIndicator.css&style=plastic&labelColor=181818&cacheSeconds=3600">
 </div>
 
@@ -82,6 +73,7 @@ Site de logos pour badges : https://simpleicons.org/
 
 <div>
   <b>  Input Bar Buttons  </b>  <br>
+    <a href="https://github.com/TirOFlanc/Discord-Snippets/blob/main/InputBarButtons.css">
   <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=InputBarButtons.css&style=plastic&labelColor=181818&cacheSeconds=3600">
 </div>
 
@@ -91,8 +83,8 @@ Site de logos pour badges : https://simpleicons.org/
 #
 
 <div>
-  <b>  Members List Collapse  </b>
-  <br>
+  <b>  Members List Collapse  </b>  <br>
+    <a href="https://github.com/TirOFlanc/Discord-Snippets/blob/main/MemberListCollapse.css">
   <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=MembersListCollapse.css&style=plastic&labelColor=181818&cacheSeconds=3600">
 </div>
 
@@ -103,6 +95,7 @@ Site de logos pour badges : https://simpleicons.org/
 
 <div>
   <b>  Nifty Font Play  </b>  <br>
+    <a href="https://github.com/TirOFlanc/Discord-Snippets/blob/main/NiftyFontPlay.css">
   <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=NiftyFontPlay.css&style=plastic&labelColor=181818&cacheSeconds=3600">
 </div>
 
@@ -113,6 +106,7 @@ Site de logos pour badges : https://simpleicons.org/
 
 <div>
   <b>  Refresh Title Bar  </b>  <br>
+    <a href="https://github.com/TirOFlanc/Discord-Snippets/blob/main/RefreshTitleBar.css">
   <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=RefreshTitleBar.css&style=plastic&labelColor=181818&cacheSeconds=3600">
 </div>
 
@@ -130,6 +124,7 @@ Site de logos pour badges : https://simpleicons.org/
 
 <div>
   <b>  Side Bar Collapse  </b>  <br>
+    <a href="https://github.com/TirOFlanc/Discord-Snippets/blob/main/SideBarCollapse.css">
   <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=SideBarCollapse.css&style=plastic&labelColor=181818&cacheSeconds=3600">
 </div>
 
@@ -140,6 +135,7 @@ Site de logos pour badges : https://simpleicons.org/
 
 <div>
   <b>  Unobtrusive Tooltip Interaction  </b>  <br>
+    <a href="https://github.com/TirOFlanc/Discord-Snippets/blob/main/UnobtrusiveTooltipInteraction.css">
   <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=UnobtrusiveTooltipInteraction.css&style=plastic&labelColor=181818&cacheSeconds=3600">
 </div>
 
@@ -153,6 +149,7 @@ Site de logos pour badges : https://simpleicons.org/
 
 <div>
   <b>  Unread Messages Shaker  </b>  <br>
+    <a href="https://github.com/TirOFlanc/Discord-Snippets/blob/main/UnreadMessagesShaker.css">
   <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=UnreadMessagesShaker.css&style=plastic&labelColor=181818&cacheSeconds=3600">
 </div>
 
@@ -167,6 +164,7 @@ Site de logos pour badges : https://simpleicons.org/
 
 <div>
   <b>  Visual Voice Indicator  </b>  <br>
+    <a href="https://github.com/TirOFlanc/Discord-Snippets/blob/main/VisualVoiceIndicator.css">
   <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=VisualVoiceIndicator.css&style=plastic&labelColor=181818&cacheSeconds=3600">
 </div>
 

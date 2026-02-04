@@ -50,7 +50,7 @@ Site de logos pour badges : https://simpleicons.org/
 ---
 <div>
   <b> Animated Spinning Logo </b>  <br>
-  <a href="https://github.com/TirOFlanc/Discord-Snippets/blob/main/AnimatedSpinningLogo.css" target="_blank">
+  <a href="https://github.com/TirOFlanc/Discord-Snippets/blob/main/AnimatedSpinningLogo.css">
     <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=AnimatedSpinningLogo.css&style=plastic&labelColor=181818&cacheSeconds=3600">
   </a>
 </div>

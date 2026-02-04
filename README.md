@@ -156,10 +156,10 @@ Site de logos pour badges : https://simpleicons.org/
 ```CSS
 @import url(https://TirOFlanc.github.io/Discord-Snippets/UnreadMessagesShaker.css);
 ```
-<sup><b>
-  Inspired by </sup><a href="https://github.com/Saltssaumure"><sup>Saltssaumure</sup></a><sup> : </sup>
+<div><b>
+  <sup>Inspired by </sup><a href="https://github.com/Saltssaumure"><sup>Saltssaumure</sup></a><sup> : </sup>
   <a href="https://github.com/MiniDiscordThemes/Snippets/tree/main/themes/UnreadShake"><sup>Repo⇗</sup></a>
-</b>
+</b></div>
 #
 
 <div>

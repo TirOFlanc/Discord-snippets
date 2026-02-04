@@ -157,12 +157,12 @@ Site de logos pour badges : https://simpleicons.org/
 @import url(https://TirOFlanc.github.io/Discord-Snippets/UnreadMessagesShaker.css);
 ```
 <sup><b>
-  <sup>Inspired by </sup><a href="https://github.com/Saltssaumure"><sup>Saltssaumure</sup></a><sup> : </sup>
-  <a href="https://github.com/MiniDiscordThemes/Snippets/tree/main/themes/UnreadShake"><sup>Repo⇗</sup></a>
+  <sup>Inspired by </sup><sup><a href="https://github.com/Saltssaumure">Saltssaumure </a></sup><sup> : </sup>
+  <sup><a href="https://github.com/MiniDiscordThemes/Snippets/tree/main/themes/UnreadShake">Repo⇗</a></sup>
 </b></sup>
 #
 
-<div>
+<div
   <b>  Visual Voice Indicator  </b>  <br>
     <a href="https://github.com/TirOFlanc/Discord-Snippets/blob/main/VisualVoiceIndicator.css">
   <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=VisualVoiceIndicator.css&style=plastic&labelColor=181818&cacheSeconds=3600">

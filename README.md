@@ -193,6 +193,6 @@ Site de logos pour badges : https://simpleicons.org/
 ```
 
 ---
-
+<div align="center">
 Made with 💜 by TirOFlanc
 </div>

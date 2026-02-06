@@ -54,6 +54,7 @@ Site de logos pour badges : https://simpleicons.org/
     <a href="https://github.com/TirOFlanc/Discord-Snippets/blob/main/AnimatedSpinningLogo.css">
     <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=AnimatedSpinningLogo.css&style=plastic&labelColor=181818&cacheSeconds=3600"></a>
 </div>
+<div align="center">
 
 ```CSS
 @import url(https://TirOFlanc.github.io/Discord-Snippets/AnimatedSpinningLogo.css);

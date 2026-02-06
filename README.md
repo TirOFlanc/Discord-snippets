@@ -113,7 +113,7 @@ Site de logos pour badges : https://simpleicons.org/
 ```CSS
 @import url(https://TirOFlanc.github.io/Discord-Snippets/RefreshTitleBar.css);
 ```
-<sup><sup><b>
+><sup><sup><b>
   Created by <a href="https://github.com/chloecinders">Chloe Cinders</a> :
   <a href="https://github.com/chloecinders/visual-refresh-compact-title-bar">Repo⇗</a>
 </b></sup>
@@ -145,8 +145,8 @@ Site de logos pour badges : https://simpleicons.org/
 @import url(https://TirOFlanc.github.io/Discord-Snippets/UnobtrusiveTooltipInteraction.css);
 ```
 ><sup><sup>
->  ℹ️ Utilisée dans <b>MembersListCollapse</b> et <b>SideBarCollapse</b> pour éviter la perte de focus en survolant les infobulles
-></sup></sup>
+ℹ️ Utilisée dans <b>MembersListCollapse</b> et <b>SideBarCollapse</b> pour éviter la perte de focus en survolant les infobulles
+</sup></sup>
 #
 
 <div>
@@ -158,7 +158,7 @@ Site de logos pour badges : https://simpleicons.org/
 ```CSS
 @import url(https://TirOFlanc.github.io/Discord-Snippets/UnreadMessagesShaker.css);
 ```
-<sup><sup><b>
+><sup><sup><b>
   Inspired by <a href="https://github.com/Saltssaumure">Saltssaumure</a> :
   <a href="https://github.com/MiniDiscordThemes/Snippets/tree/main/themes/UnreadShake">Repo⇗</a>
 </b></sup></sup>

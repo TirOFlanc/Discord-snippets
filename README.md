@@ -194,5 +194,7 @@ Site de logos pour badges : https://simpleicons.org/
 
 ---
 <div align="center">
-Made with 💜 by TirOFlanc
+  <sup>
+    Made with 💜 by TirOFlanc
+  </sup>
 </div>

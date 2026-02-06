@@ -26,7 +26,8 @@ Site de logos pour badges : https://simpleicons.org/
 * TEMPLATE *
 <div>
   <b>  The File Name  </b>  <br>
-  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=TheFileName.css">
+  <a href="https://github.com/TirOFlanc/Discord-Snippets/blob/main/AnimatedSpinningLogo.css">
+  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=TheFileName.css"></a>
 </div>
 
 ```CSS
@@ -51,8 +52,7 @@ Site de logos pour badges : https://simpleicons.org/
 <div>
   <b> Animated Spinning Logo </b>  <br>
     <a href="https://github.com/TirOFlanc/Discord-Snippets/blob/main/AnimatedSpinningLogo.css">
-    <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=AnimatedSpinningLogo.css&style=plastic&labelColor=181818&cacheSeconds=3600">
-  </a>
+    <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=AnimatedSpinningLogo.css&style=plastic&labelColor=181818&cacheSeconds=3600"></a>
 </div>
 
 ```CSS
@@ -63,7 +63,7 @@ Site de logos pour badges : https://simpleicons.org/
 <div>
   <b>  Colorized Status Indicator  </b>  <br>
     <a href="https://github.com/TirOFlanc/Discord-Snippets/blob/main/ColorizedStatusIndicator.css">
-  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=ColorizedStatusIndicator.css&style=plastic&labelColor=181818&cacheSeconds=3600">
+  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=ColorizedStatusIndicator.css&style=plastic&labelColor=181818&cacheSeconds=3600"></a>
 </div>
 
 ```CSS
@@ -74,7 +74,7 @@ Site de logos pour badges : https://simpleicons.org/
 <div>
   <b>  Input Bar Buttons  </b>  <br>
     <a href="https://github.com/TirOFlanc/Discord-Snippets/blob/main/InputBarButtons.css">
-  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=InputBarButtons.css&style=plastic&labelColor=181818&cacheSeconds=3600">
+  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=InputBarButtons.css&style=plastic&labelColor=181818&cacheSeconds=3600"></a>
 </div>
 
 ```CSS
@@ -85,7 +85,7 @@ Site de logos pour badges : https://simpleicons.org/
 <div>
   <b>  Members List Collapse  </b>  <br>
     <a href="https://github.com/TirOFlanc/Discord-Snippets/blob/main/MemberListCollapse.css">
-  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=MembersListCollapse.css&style=plastic&labelColor=181818&cacheSeconds=3600">
+  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=MembersListCollapse.css&style=plastic&labelColor=181818&cacheSeconds=3600"></a>
 </div>
 
 ```CSS
@@ -96,7 +96,7 @@ Site de logos pour badges : https://simpleicons.org/
 <div>
   <b>  Nifty Font Play  </b>  <br>
     <a href="https://github.com/TirOFlanc/Discord-Snippets/blob/main/NiftyFontPlay.css">
-  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=NiftyFontPlay.css&style=plastic&labelColor=181818&cacheSeconds=3600">
+  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=NiftyFontPlay.css&style=plastic&labelColor=181818&cacheSeconds=3600"></a>
 </div>
 
 ```CSS
@@ -107,25 +107,27 @@ Site de logos pour badges : https://simpleicons.org/
 <div>
   <b>  Refresh Title Bar  </b>  <br>
     <a href="https://github.com/TirOFlanc/Discord-Snippets/blob/main/RefreshTitleBar.css">
-  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=RefreshTitleBar.css&style=plastic&labelColor=181818&cacheSeconds=3600">
+  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=RefreshTitleBar.css&style=plastic&labelColor=181818&cacheSeconds=3600"></a>
 </div>
 
 ```CSS
 @import url(https://TirOFlanc.github.io/Discord-Snippets/RefreshTitleBar.css);
 ```
-<sup><b>
-  Created by <a href="https://github.com/chloecinders"><sup>Chloe Cinders</sup></a><sup> : </sup>
-  <a href="https://github.com/chloecinders/visual-refresh-compact-title-bar"><sup>Repo⇗</sup></a>
-  </b></sup><sup> & </sup><sup><b>
-  Maintained by <a href="https://github.com/G0d0fninjas"><sup>G0d0fninjas</sup></a><sup> : </sup>
-  <a href="https://github.com/G0d0fninjas/visual-refresh-compact-title-bar"><sup>Repo⇗</sup></a>
+<sup><sup><b>
+  Created by <a href="https://github.com/chloecinders">Chloe Cinders</a> :
+  <a href="https://github.com/chloecinders/visual-refresh-compact-title-bar">Repo⇗</a>
 </b></sup>
+<sup> & </sup>
+<sup><b>
+  Maintained by <a href="https://github.com/G0d0fninjas">G0d0fninjas</a> :
+  <a href="https://github.com/G0d0fninjas/visual-refresh-compact-title-bar">Repo⇗</a>
+</b></sup></sup>
 #
 
 <div>
   <b>  Side Bar Collapse  </b>  <br>
     <a href="https://github.com/TirOFlanc/Discord-Snippets/blob/main/SideBarCollapse.css">
-  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=SideBarCollapse.css&style=plastic&labelColor=181818&cacheSeconds=3600">
+  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=SideBarCollapse.css&style=plastic&labelColor=181818&cacheSeconds=3600"></a>
 </div>
 
 ```CSS
@@ -136,36 +138,36 @@ Site de logos pour badges : https://simpleicons.org/
 <div>
   <b>  Unobtrusive Tooltip Interaction  </b>  <br>
     <a href="https://github.com/TirOFlanc/Discord-Snippets/blob/main/UnobtrusiveTooltipInteraction.css">
-  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=UnobtrusiveTooltipInteraction.css&style=plastic&labelColor=181818&cacheSeconds=3600">
+  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=UnobtrusiveTooltipInteraction.css&style=plastic&labelColor=181818&cacheSeconds=3600"></a>
 </div>
 
 ```CSS
 @import url(https://TirOFlanc.github.io/Discord-Snippets/UnobtrusiveTooltipInteraction.css);
 ```
-><sup>
+><sup><sup>
 >  ℹ️ Utilisée dans <b>MembersListCollapse</b> et <b>SideBarCollapse</b> pour éviter la perte de focus en survolant les infobulles
-></sup>
+></sup></sup>
 #
 
 <div>
   <b>  Unread Messages Shaker  </b>  <br>
     <a href="https://github.com/TirOFlanc/Discord-Snippets/blob/main/UnreadMessagesShaker.css">
-  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=UnreadMessagesShaker.css&style=plastic&labelColor=181818&cacheSeconds=3600">
+  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=UnreadMessagesShaker.css&style=plastic&labelColor=181818&cacheSeconds=3600"></a>
 </div>
 
 ```CSS
 @import url(https://TirOFlanc.github.io/Discord-Snippets/UnreadMessagesShaker.css);
 ```
-<sup><b>
-  Inspired by <a href="https://github.com/Saltssaumure"><sup>Saltssaumure</sup></a><sup> : </sup>
-  <a href="https://github.com/MiniDiscordThemes/Snippets/tree/main/themes/UnreadShake"><sup>Repo⇗</sup></a>
-</b></sup>
+<sup><sup><b>
+  Inspired by <a href="https://github.com/Saltssaumure">Saltssaumure</a> :
+  <a href="https://github.com/MiniDiscordThemes/Snippets/tree/main/themes/UnreadShake">Repo⇗</a>
+</b></sup></sup>
 #
 
 <div
   <b>  Visual Voice Indicator  </b>  <br>
     <a href="https://github.com/TirOFlanc/Discord-Snippets/blob/main/VisualVoiceIndicator.css">
-  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=VisualVoiceIndicator.css&style=plastic&labelColor=181818&cacheSeconds=3600">
+  <img src="https://img.shields.io/github/last-commit/TirOFlanc/Discord-Snippets?path=VisualVoiceIndicator.css&style=plastic&labelColor=181818&cacheSeconds=3600"></a>
 </div>
 
 ```CSS

@@ -4,7 +4,7 @@
 		[style*="speaking"] {box-shadow:unset!important}
 
 		.content__07f91,
-		.avatarWrapper__37e49 {
+		.accountPopoutButtonWrapper__37e49 {
 			transition:box-shadow .15s;
 
 			&:has([class*="Speaking"],[style*="speaking"]) {
